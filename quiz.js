@@ -19,10 +19,11 @@ fetch(`./${moduleName}.json`)
     if (!res.ok) throw new Error("JSON not found");
     return res.json();
   })
-  .then(data => {
-    allQuestions = data.questions;
-    render(allQuestions);
-  })
+.then(data => {
+  console.log("Loaded JSON:", data);   // 👈 debug line
+  allQuestions = data.questions;
+  render(allQuestions);
+})
   .catch(err => {
     quizContainer.innerHTML = "<p>Error loading questions.</p>";
     console.error(err);
