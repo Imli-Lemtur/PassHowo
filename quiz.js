@@ -12,7 +12,15 @@ if (!moduleName) {
   throw new Error("No module specified");
 }
 
-quizTitle.textContent = moduleName.replace("module", "Module ");
+.then(data => {
+  console.log("Loaded JSON:", data);
+
+  // ✅ Use module title directly from JSON
+  quizTitle.textContent = data.module;
+
+  allQuestions = data.questions;
+  render(allQuestions);
+})
 
 fetch(`./${moduleName}.json`)
   .then(res => {
