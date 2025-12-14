@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const moduleKey = params.get("module"); // e.g. module1
+const moduleName = params.get("module");
 
 const quizContainer = document.getElementById("quiz-container");
 const quizTitle = document.getElementById("quiz-title");
@@ -7,20 +7,24 @@ const quizTitle = document.getElementById("quiz-title");
 let allQuestions = [];
 let wrongQuestions = [];
 
-if (!moduleKey) {
+if (!moduleName) {
   quizContainer.innerHTML = "<p>No module selected.</p>";
   throw new Error("No module specified");
 }
 
-// 🔹 Fetch JSON (NO SPACES, SAFE FOR GITHUB)
-fetch(`./${moduleKey}.json`)
+// -------- Title formatting --------
+quizTitle.textContent = moduleName
+  .replace("module", "Module ")
+  .replace(/(\d+)/, "$1");
+
+// -------- Load JSON --------
+fetch(`./${moduleName}.json`)
   .then(res => {
     if (!res.ok) throw new Error("JSON not found");
     return res.json();
   })
   .then(data => {
-    // ✅ Use module title from JSON
-    quizTitle.textContent = data.module || moduleKey;
+    console.log("Loaded JSON:", data);
     allQuestions = data.questions;
     render(allQuestions);
   })
@@ -29,6 +33,7 @@ fetch(`./${moduleKey}.json`)
     console.error(err);
   });
 
+// -------- Render Questions --------
 function render(questions) {
   quizContainer.innerHTML = "";
   wrongQuestions = [];
@@ -50,31 +55,33 @@ function render(questions) {
       <span class="q-no">Question ${index + 1}</span>
       <h3>${q.question}</h3>
       <div class="options">${optionsHTML}</div>
-      <div class="result"></div>
+      <div class="result-text"></div>
     `;
 
     quizContainer.appendChild(card);
   });
 }
 
+// -------- Check Answer --------
 window.checkAnswer = function (btn, correctIndex, clickedIndex, qIndex) {
   const card = btn.closest(".question-card");
   const buttons = card.querySelectorAll(".option-btn");
-  const result = card.querySelector(".result");
+  const resultText = card.querySelector(".result-text");
 
-  buttons.forEach(b => b.disabled = true);
+  buttons.forEach(b => (b.disabled = true));
 
   if (clickedIndex === correctIndex) {
     btn.classList.add("correct");
-    result.innerHTML = "✅ Correct";
+    resultText.textContent = "✅ Correct";
   } else {
     btn.classList.add("wrong");
     buttons[correctIndex].classList.add("correct");
-    result.innerHTML = "❌ Wrong";
+    resultText.textContent = "❌ Wrong";
     wrongQuestions.push(allQuestions[qIndex]);
   }
 };
 
+// -------- Retry Wrong --------
 window.retryWrong = function () {
   if (wrongQuestions.length === 0) {
     alert("No wrong questions 🎉");
