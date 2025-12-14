@@ -1,17 +1,16 @@
 {
   "module": "Module 1 - Computer Fundamentals",
-  "questions": [
-    {
+  "questions": [{
       "id": 1,
       "question": "Which of the following is considered the brain of the computer?",
       "options": ["RAM", "CPU", "Hard Disk", "Motherboard"],
-      "answer": 1
+      "answer": 2
     },
     {
       "id": 2,
       "question": "What does RAM stand for?",
       "options": ["Random Application Module", "Read Access Memory", "Remote Access Mechanism", "Random Access Memory"],
-      "answer": 3
+      "answer": 4
     },
     {
       "id": 3,
@@ -1511,7 +1510,7 @@
     "Connect USB devices",
     "Speed up hard disks"
   ],
-  "answer": 0
+  "answer": 1
 }
 ]
 }
