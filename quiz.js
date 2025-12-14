@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const moduleName = params.get("module");
+const moduleNo = params.get("module");
 
 const quizContainer = document.getElementById("quiz-container");
 const quizTitle = document.getElementById("quiz-title");
@@ -7,27 +7,30 @@ const quizTitle = document.getElementById("quiz-title");
 let allQuestions = [];
 let wrongQuestions = [];
 
-if (!moduleName) {
+if (!moduleNo) {
   quizContainer.innerHTML = "<p>No module selected.</p>";
   throw new Error("No module specified");
 }
 
-.then(data => {
-  console.log("Loaded JSON:", data);
+/* ---------- TITLE ---------- */
+const moduleNames = {
+  1: "Module 1 – Computer Fundamentals",
+  2: "Module 2 – System Maintenance & Information Security",
+  3: "Module 3 – Internet Technology & Web Design",
+  4: "Module 4 – Multimedia",
+  5: "Module 5 – DBMS"
+};
 
-  // ✅ Use module title directly from JSON
-  quizTitle.textContent = data.module;
+quizTitle.textContent = moduleNames[moduleNo] || `Module ${moduleNo}`;
 
-  allQuestions = data.questions;
-  render(allQuestions);
-})
-
-fetch(`./${moduleName}.json`)
+/* ---------- FETCH ---------- */
+fetch(`module${moduleNo}.json`)
   .then(res => {
     if (!res.ok) throw new Error("JSON not found");
     return res.json();
   })
   .then(data => {
+    console.log("Loaded JSON:", data);
     allQuestions = data.questions;
     render(allQuestions);
   })
@@ -36,6 +39,7 @@ fetch(`./${moduleName}.json`)
     console.error(err);
   });
 
+/* ---------- RENDER ---------- */
 function render(questions) {
   quizContainer.innerHTML = "";
   wrongQuestions = [];
@@ -48,7 +52,7 @@ function render(questions) {
     q.options.forEach((opt, i) => {
       optionsHTML += `
         <button class="option-btn"
-          onclick="checkAnswer(this, ${q.answer}, ${i}, ${index})">
+          onclick="checkAnswer(this, ${q.answer}, ${i + 1}, ${index})">
           ${opt}
         </button>`;
     });
@@ -57,35 +61,36 @@ function render(questions) {
       <span class="q-no">Question ${index + 1}</span>
       <h3>${q.question}</h3>
       <div class="options">${optionsHTML}</div>
-      <p class="feedback"></p>
+      <div class="result"></div>
     `;
 
     quizContainer.appendChild(card);
   });
 }
 
-window.checkAnswer = function (btn, correctIndex, clickedIndex, qIndex) {
+/* ---------- CHECK ANSWER ---------- */
+window.checkAnswer = function (btn, correct, selected, qIndex) {
   const card = btn.closest(".question-card");
-  const buttons = card.querySelectorAll("button");
-  const feedback = card.querySelector(".feedback");
+  const buttons = card.querySelectorAll(".option-btn");
+  const result = card.querySelector(".result");
 
   buttons.forEach(b => b.disabled = true);
 
-  // Convert 1-based → 0-based
-  const correct = correctIndex - 1;
-
-  if (clickedIndex === correct) {
+  if (selected === correct) {
     btn.classList.add("correct");
-    feedback.textContent = "✅ Correct";
+    result.innerHTML = "✅ Correct";
   } else {
     btn.classList.add("wrong");
-    feedback.textContent = "❌ Wrong";
-
-    buttons[correct].classList.add("correct");
+    result.innerHTML = "❌ Wrong";
     wrongQuestions.push(allQuestions[qIndex]);
+
+    buttons.forEach((b, i) => {
+      if (i + 1 === correct) b.classList.add("correct");
+    });
   }
 };
 
+/* ---------- RETRY ---------- */
 window.retryWrong = function () {
   if (wrongQuestions.length === 0) {
     alert("No wrong questions 🎉");
