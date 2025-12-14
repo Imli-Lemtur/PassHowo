@@ -1,0 +1,1104 @@
+{
+  "module": "Module 4 –Multimedia",
+  "questions": [{
+  "id": 1,
+  "question": "What is the primary characteristic of Multimedia?",
+  "options": [
+    "Combination of only text and images.",
+    "Sequential presentation of data.",
+    "Combination of different media elements like text, audio, video, and graphics.",
+    "Static, non-interactive content."
+  ],
+  "answer": 2
+},
+{
+  "id": 2,
+  "question": "Which of the following is NOT a core component of Multimedia?",
+  "options": [
+    "Video",
+    "Graphics",
+    "Electricity",
+    "Animation"
+  ],
+  "answer": 2
+},
+{
+  "id": 3,
+  "question": "Which application of Multimedia is commonly used for developing CBT (Computer-Based Training) materials?",
+  "options": [
+    "Entertainment",
+    "Education and Training",
+    "Scientific Research",
+    "Marketing"
+  ],
+  "answer": 1
+},
+{
+  "id": 4,
+  "question": "What does the term \"hypertext\" refer to in the context of multimedia?",
+  "options": [
+    "Text that is extremely large.",
+    "Text formatted for printing.",
+    "Text that is purely static.",
+    "Text that contains links to other text or media elements."
+  ],
+  "answer": 3
+},
+{
+  "id": 5,
+  "question": "Which term describes the graphical representation of data, such as charts or diagrams?",
+  "options": [
+    "Audio",
+    "Video",
+    "Graphics",
+    "Text"
+  ],
+  "answer": 2
+},
+{
+  "id": 6,
+  "question": "The ability to move through multimedia content by clicking on interactive elements is called:",
+  "options": [
+    "Linear sequencing",
+    "Non-linear navigation",
+    "Temporal flow",
+    "Text processing"
+  ],
+  "answer": 1
+},
+{
+  "id": 7,
+  "question": "What is \"Colour Science\" primarily concerned with in image fundamentals?",
+  "options": [
+    "The speed of light.",
+    "The perception, measurement, and reproduction of colour.",
+    "The historical use of pigments.",
+    "The chemical composition of dyes."
+  ],
+  "answer": 1
+},
+{
+  "id": 8,
+  "question": "Which colour model is considered an Additive colour model, typically used for digital displays?",
+  "options": [
+    "RGB",
+    "CMYK",
+    "Grayscale",
+    "HSL"
+  ],
+  "answer": 0
+},
+{
+  "id": 9,
+  "question": "Which colour model is a Subtractive colour model, primarily used for printing?",
+  "options": [
+    "RGB",
+    "CMYK",
+    "HSV",
+    "CIE Lab"
+  ],
+  "answer": 1
+},
+{
+  "id": 10,
+  "question": "What determines the colour depth of an image?",
+  "options": [
+    "The physical size of the monitor.",
+    "The number of pixels in the image.",
+    "The number of bits used to represent the colour of a single pixel.",
+    "The file format of the image."
+  ],
+  "answer": 2
+},
+{
+  "id": 11,
+  "question": "What is the fundamental difference between 2D and 3D graphics?",
+  "options": [
+    "Only 3D graphics use colour.",
+    "2D uses X and Y axes; 3D uses X, Y, and Z axes (depth).",
+    "2D graphics are always vector-based.",
+    "3D graphics cannot be animated."
+  ],
+  "answer": 1
+},
+{
+  "id": 12,
+  "question": "Which type of graphic stores an image as a map of pixels?",
+  "options": [
+    "Vector Graphics",
+    "Bitmap (Raster) Graphics",
+    "3D Graphics",
+    "Hypermedia"
+  ],
+  "answer": 1
+},
+{
+  "id": 13,
+  "question": "Which type of graphic is scalable without loss of resolution?",
+  "options": [
+    "Bitmap Graphics",
+    "Vector Graphics",
+    "Pixel Graphics",
+    "Raster Graphics"
+  ],
+  "answer": 1
+},
+{
+  "id": 14,
+  "question": "Which image file format supports transparency and is often used for web graphics?",
+  "options": [
+    "JPG",
+    "TIFF",
+    "PNG",
+    "BMP"
+  ],
+  "answer": 2
+},
+{
+  "id": 15,
+  "question": "What does the term \"kerning\" relate to in typography?",
+  "options": [
+    "The distance between lines of text.",
+    "The space between two specific adjacent characters.",
+    "The overall spacing of characters.",
+    "The height of lowercase letters."
+  ],
+  "answer": 1
+},
+{
+  "id": 16,
+  "question": "Which term describes a set of characters of a particular style and size?",
+  "options": [
+    "Glyph",
+    "Kerning",
+    "Font",
+    "Font Family"
+  ],
+  "answer": 2
+},
+{
+  "id": 17,
+  "question": "What is a font outline?",
+  "options": [
+    "The colour of the font.",
+    "The mathematical description of a character’s shape.",
+    "A shadow effect.",
+    "The boldness of the font."
+  ],
+  "answer": 1
+},
+{
+  "id": 18,
+  "question": "What is the main purpose of image compression?",
+  "options": [
+    "To increase image quality.",
+    "To convert 2D to 3D.",
+    "To reduce file size.",
+    "To change colour models."
+  ],
+  "answer": 2
+},
+{
+  "id": 19,
+  "question": "Which international character set represents text in most writing systems?",
+  "options": [
+    "ASCII",
+    "ISO-8859",
+    "Unicode",
+    "EBCDIC"
+  ],
+  "answer": 2
+},
+{
+  "id": 20,
+  "question": "What is a colour palette?",
+  "options": [
+    "A file format",
+    "A defined set of colours available",
+    "A colour correction tool",
+    "A colour model"
+  ],
+  "answer": 1
+},
+{
+  "id": 21,
+  "question": "Which Photoshop tool creates free-form selections?",
+  "options": [
+    "Marquee Tool",
+    "Magic Wand Tool",
+    "Lasso Tool",
+    "Polygonal Lasso Tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 22,
+  "question": "Which tool selects areas of similar colour with one click?",
+  "options": [
+    "Healing Brush",
+    "Smudge Tool",
+    "Magic Wand Tool",
+    "Clone Stamp"
+  ],
+  "answer": 2
+},
+{
+  "id": 23,
+  "question": "What does Content-Aware Fill do?",
+  "options": [
+    "Adjusts brightness",
+    "Fills selections with surrounding content",
+    "Resizes selections",
+    "Changes colour balance"
+  ],
+  "answer": 1
+},
+{
+  "id": 24,
+  "question": "Which technique allows flipping, rotating, and resizing?",
+  "options": [
+    "Cropping",
+    "Healing",
+    "Transformation",
+    "Exposure Correction"
+  ],
+  "answer": 2
+},
+{
+  "id": 25,
+  "question": "Which transformation adjusts viewing angle?",
+  "options": [
+    "Skew",
+    "Rotate",
+    "Perspective",
+    "Scale"
+  ],
+  "answer": 2
+},
+{
+  "id": 26,
+  "question": "What is the purpose of the Red Eye Tool in Photoshop?",
+  "options": [
+    "To enhance red colours",
+    "To apply sepia tone",
+    "To correct red glow in eyes caused by flash",
+    "To increase saturation"
+  ],
+  "answer": 2
+},
+{
+  "id": 27,
+  "question": "What is the main use of the Dodge Tool in Photoshop?",
+  "options": [
+    "To lighten specific areas",
+    "To darken specific areas",
+    "To increase saturation",
+    "To blur the image"
+  ],
+  "answer": 0
+},
+{
+  "id": 28,
+  "question": "Which tool is used for colour correction by increasing or decreasing exposure in selected areas?",
+  "options": [
+    "Sponge Tool",
+    "Blur Tool",
+    "Dodge/Burn Tool",
+    "Healing Brush Tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 29,
+  "question": "Which tool paints with sampled pixels to remove unwanted objects?",
+  "options": [
+    "Blur Tool",
+    "Pattern Stamp Tool",
+    "Clone Stamp Tool",
+    "Sharpen Tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 30,
+  "question": "What does canvas size refer to in Photoshop?",
+  "options": [
+    "Printed image size",
+    "Active selection size",
+    "Total working area of the image",
+    "Image resolution"
+  ],
+  "answer": 2
+},
+{
+  "id": 31,
+  "question": "Which adjustment changes the intensity of colours?",
+  "options": [
+    "Brightness/Contrast",
+    "Levels",
+    "Hue/Saturation",
+    "Threshold"
+  ],
+  "answer": 2
+},
+{
+  "id": 32,
+  "question": "Colour Balance adjustment modifies which colour pairs?",
+  "options": [
+    "Black and White",
+    "Cyan–Red, Magenta–Green, Yellow–Blue",
+    "Hue and Saturation",
+    "Brightness and Contrast"
+  ],
+  "answer": 1
+},
+{
+  "id": 33,
+  "question": "What are layers primarily used for in Photoshop?",
+  "options": [
+    "Changing colour mode",
+    "Editing elements independently",
+    "Changing file format",
+    "Applying universal filters"
+  ],
+  "answer": 1
+},
+{
+  "id": 34,
+  "question": "Which method allows non-destructive editing in Photoshop?",
+  "options": [
+    "Merging Layers",
+    "Flattening Image",
+    "Adjustment Layers or Smart Filters",
+    "History Panel"
+  ],
+  "answer": 2
+},
+{
+  "id": 35,
+  "question": "Which blending mode uses transparency to control visibility?",
+  "options": [
+    "Normal",
+    "Dissolve",
+    "Opacity",
+    "Luminosity"
+  ],
+  "answer": 2
+},
+{
+  "id": 36,
+  "question": "The Type Tool in Photoshop creates which content?",
+  "options": [
+    "Raster images",
+    "Vector shapes",
+    "Editable text layers",
+    "3D objects"
+  ],
+  "answer": 2
+},
+{
+  "id": 37,
+  "question": "Text attached along a curve is known as:",
+  "options": [
+    "Text warp",
+    "Layer styles",
+    "Text on a Path",
+    "Text masking"
+  ],
+  "answer": 2
+},
+{
+  "id": 38,
+  "question": "Which option converts a vector path into a selection?",
+  "options": [
+    "Magic Wand Tool",
+    "Direct Selection Tool",
+    "Make Selection from Paths panel",
+    "Freeform Pen Tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 39,
+  "question": "What is the function of a Clipping Mask?",
+  "options": [
+    "Hide entire layers",
+    "Crop the canvas",
+    "Control visibility using another layer",
+    "Automatically resize images"
+  ],
+  "answer": 2
+},
+{
+  "id": 40,
+  "question": "What is the key difference between raster and vector graphics?",
+  "options": [
+    "Raster is smaller",
+    "Vector loses quality when scaled",
+    "Raster is pixel-based; vector is path-based",
+    "Only raster works on web"
+  ],
+  "answer": 2
+},
+{
+  "id": 41,
+  "question": "Which Photoshop feature records a sequence of commands?",
+  "options": [
+    "History Panel",
+    "Actions",
+    "Batch Processing",
+    "Scripts"
+  ],
+  "answer": 1
+},
+{
+  "id": 42,
+  "question": "Which selection tool creates straight-edged segments?",
+  "options": [
+    "Lasso Tool",
+    "Magnetic Lasso Tool",
+    "Polygonal Lasso Tool",
+    "Quick Selection Tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 43,
+  "question": "What does the Sharpen Tool do?",
+  "options": [
+    "Increase brightness",
+    "Increase edge contrast",
+    "Reduce noise",
+    "Smooth textures"
+  ],
+  "answer": 1
+},
+{
+  "id": 44,
+  "question": "Which adjustment provides tonal control using a graph?",
+  "options": [
+    "Brightness/Contrast",
+    "Levels",
+    "Curves",
+    "Exposure"
+  ],
+  "answer": 2
+},
+{
+  "id": 45,
+  "question": "Which method removes colour from an image?",
+  "options": [
+    "Invert",
+    "Desaturate or Grayscale",
+    "Colour Balance",
+    "Gaussian Blur"
+  ],
+  "answer": 1
+},
+{
+  "id": 46,
+  "question": "What happens when you Merge Down layers?",
+  "options": [
+    "Layers remain separate",
+    "Active layer merges with layer below",
+    "All layers merge",
+    "Layer duplicates"
+  ],
+  "answer": 1
+},
+{
+  "id": 47,
+  "question": "Which transform fixes perspective distortion?",
+  "options": [
+    "Skew",
+    "Rotate",
+    "Distort/Perspective",
+    "Scale"
+  ],
+  "answer": 2
+},
+{
+  "id": 48,
+  "question": "What does the Spot Healing Brush Tool do?",
+  "options": [
+    "Paint patterns",
+    "Copy source pixels",
+    "Remove blemishes automatically",
+    "Blur large areas"
+  ],
+  "answer": 2
+},
+{
+  "id": 49,
+  "question": "Which filter smoothly blends colours?",
+  "options": [
+    "Sharpen",
+    "Gaussian Blur",
+    "Noise",
+    "Stylize"
+  ],
+  "answer": 1
+},
+{
+  "id": 50,
+  "question": "What is a clipping path mainly used for?",
+  "options": [
+    "Define colour profile",
+    "Separate object from background",
+    "Apply texture",
+    "Compress image"
+  ],
+  "answer": 1
+},
+{
+  "id": 51,
+  "question": "Which option converts selected text into vector outlines that can be edited with the Pen Tool?",
+  "options": [
+    "Convert to Smart Object",
+    "Rasterize Type",
+    "Create Work Path",
+    "Warp Text"
+  ],
+  "answer": 2
+},
+{
+  "id": 52,
+  "question": "Which colour mode is most commonly used for web images?",
+  "options": [
+    "CMYK",
+    "RGB",
+    "Lab Colour",
+    "Bitmap"
+  ],
+  "answer": 1
+},
+{
+  "id": 53,
+  "question": "The Unsharp Mask filter is mainly used to:",
+  "options": [
+    "Blur the image",
+    "Remove colour",
+    "Sharpen image edges",
+    "Correct distortion"
+  ],
+  "answer": 2
+},
+{
+  "id": 54,
+  "question": "What is a layer mask in Photoshop?",
+  "options": [
+    "A permanent crop",
+    "A transparency control using black and white",
+    "A protective cover",
+    "An automatic selection"
+  ],
+  "answer": 1
+},
+{
+  "id": 55,
+  "question": "Which colour picker uses Hue, Saturation, and Brightness?",
+  "options": [
+    "RGB",
+    "CMYK",
+    "HSB/HSL",
+    "Hexadecimal"
+  ],
+  "answer": 2
+},
+{
+  "id": 56,
+  "question": "What does the Smudge Tool do?",
+  "options": [
+    "Lightens pixels",
+    "Darkens pixels",
+    "Sharpens edges",
+    "Pushes and blends pixels"
+  ],
+  "answer": 3
+},
+{
+  "id": 57,
+  "question": "Which tool is best for non-destructive colour-based selection?",
+  "options": [
+    "Polygonal Lasso Tool",
+    "Magic Wand Tool",
+    "Select Colour Range",
+    "Rectangular Marquee Tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 58,
+  "question": "Which setting controls the softness of selection edges?",
+  "options": [
+    "Tolerance",
+    "Opacity",
+    "Feather",
+    "Hardness"
+  ],
+  "answer": 2
+},
+{
+  "id": 59,
+  "question": "What does descreening remove from scanned images?",
+  "options": [
+    "Colour casts",
+    "Blur",
+    "Halftone dot patterns",
+    "Noise"
+  ],
+  "answer": 2
+},
+{
+  "id": 60,
+  "question": "The Patch Tool belongs to which tool category?",
+  "options": [
+    "Selection Tools",
+    "Vector Tools",
+    "Retouching Tools",
+    "Painting Tools"
+  ],
+  "answer": 2
+},
+{
+  "id": 61,
+  "question": "What is the primary function of Adobe InDesign?",
+  "options": [
+    "Video editing",
+    "Page layout and desktop publishing",
+    "Photo manipulation",
+    "3D animation"
+  ],
+  "answer": 1
+},
+{
+  "id": 62,
+  "question": "Which InDesign feature controls repeated elements like page numbers?",
+  "options": [
+    "Layers",
+    "Frames",
+    "Master Pages",
+    "Spreads"
+  ],
+  "answer": 2
+},
+{
+  "id": 63,
+  "question": "What is a document preset used for in InDesign?",
+  "options": [
+    "Applying text styles",
+    "Saving document setup settings",
+    "Exporting PDFs",
+    "Colour correction"
+  ],
+  "answer": 1
+},
+{
+  "id": 64,
+  "question": "Which tools help align objects precisely in InDesign?",
+  "options": [
+    "Character Styles",
+    "Rulers, Grids, and Guides",
+    "Swatches Panel",
+    "Story Editor"
+  ],
+  "answer": 1
+},
+{
+  "id": 65,
+  "question": "What are facing pages in InDesign?",
+  "options": [
+    "Identical pages",
+    "Two pages in a spread like a book",
+    "Pages with different masters",
+    "Pages ready for print"
+  ],
+  "answer": 1
+},
+{
+  "id": 66,
+  "question": "What are text threads used for?",
+  "options": [
+    "Applying effects",
+    "Linking text frames",
+    "Adding colours",
+    "Setting margins"
+  ],
+  "answer": 1
+},
+{
+  "id": 67,
+  "question": "What is the purpose of the Story Editor?",
+  "options": [
+    "View final print",
+    "Edit text without layout distractions",
+    "Manage links",
+    "Create storyboards"
+  ],
+  "answer": 1
+},
+{
+  "id": 68,
+  "question": "Character Styles are used to:",
+  "options": [
+    "Format paragraphs",
+    "Apply formatting to selected text",
+    "Define page layout",
+    "Manage images"
+  ],
+  "answer": 1
+},
+{
+  "id": 69,
+  "question": "Which feature adjusts spacing for justified text blocks?",
+  "options": [
+    "Kerning",
+    "Leading",
+    "Hyphenation and Justification",
+    "Tracking"
+  ],
+  "answer": 2
+},
+{
+  "id": 70,
+  "question": "What is tracking in typography?",
+  "options": [
+    "Spacing between two characters",
+    "Uniform spacing across characters",
+    "Line spacing",
+    "Text alignment"
+  ],
+  "answer": 1
+},
+{
+  "id": 71,
+  "question": "What are nested styles?",
+  "options": [
+    "Layer-based styles",
+    "Automatic character styles within paragraphs",
+    "Frame-based styles",
+    "Table styles"
+  ],
+  "answer": 1
+},
+{
+  "id": 72,
+  "question": "Paragraph Style Sheets are used to:",
+  "options": [
+    "Format characters",
+    "Apply formatting to entire paragraphs",
+    "Manage colours",
+    "Create vector paths"
+  ],
+  "answer": 1
+},
+{
+  "id": 73,
+  "question": "What is the main benefit of OpenType fonts?",
+  "options": [
+    "Mac-only support",
+    "Advanced typographic features in one file",
+    "Bitmap-only fonts",
+    "Latin-only characters"
+  ],
+  "answer": 1
+},
+{
+  "id": 74,
+  "question": "What does the Content Grabber allow you to do?",
+  "options": [
+    "Resize frames",
+    "Move image inside frame",
+    "Rotate objects",
+    "Crop images"
+  ],
+  "answer": 1
+},
+{
+  "id": 75,
+  "question": "What is placing one object inside another called?",
+  "options": [
+    "Grouping",
+    "Nesting or Pasting Into",
+    "Linking",
+    "Scaling"
+  ],
+  "answer": 1
+},
+{
+  "id": 76,
+  "question": "Which panel is used to manage and update placed images in an InDesign document?",
+  "options": [
+    "Pages Panel",
+    "Swatches Panel",
+    "Links Panel",
+    "Layers Panel"
+  ],
+  "answer": 2
+},
+{
+  "id": 77,
+  "question": "What is the function of the Text Wrap panel?",
+  "options": [
+    "Apply borders to text",
+    "Make text flow around objects",
+    "Convert text to outlines",
+    "Align text vertically"
+  ],
+  "answer": 1
+},
+{
+  "id": 78,
+  "question": "Which feature ensures colour consistency across devices and print?",
+  "options": [
+    "Swatch Libraries",
+    "Gradient Tools",
+    "Colour Management / Colour Profiles",
+    "Spot Colours"
+  ],
+  "answer": 2
+},
+{
+  "id": 79,
+  "question": "What is a Mixed Ink Group used for?",
+  "options": [
+    "Combining raster and vector graphics",
+    "Mixing spot and/or process inks into a new swatch",
+    "Blending screen colours",
+    "Applying gradients"
+  ],
+  "answer": 1
+},
+{
+  "id": 80,
+  "question": "Why is Adobe Bridge used with InDesign?",
+  "options": [
+    "To create forms",
+    "To manage and organize creative assets",
+    "To publish to web",
+    "To spell-check documents"
+  ],
+  "answer": 1
+},
+{
+  "id": 81,
+  "question": "What distinguishes a Process Colour from a Spot Colour?",
+  "options": [
+    "Process is digital only",
+    "Process uses CMYK inks; Spot uses a premixed ink",
+    "Spot is only for text",
+    "Process colours are metallic"
+  ],
+  "answer": 1
+},
+{
+  "id": 82,
+  "question": "What is the first step when importing spreadsheet data into InDesign?",
+  "options": [
+    "Create paragraph styles",
+    "Use the Place command",
+    "Manually type data",
+    "Create master pages"
+  ],
+  "answer": 1
+},
+{
+  "id": 83,
+  "question": "What is Preflight in document production?",
+  "options": [
+    "Final printing stage",
+    "Design review",
+    "Checking for output problems before printing",
+    "Initial document setup"
+  ],
+  "answer": 2
+},
+{
+  "id": 84,
+  "question": "What is a PDF Preset used for?",
+  "options": [
+    "Defining paper size",
+    "Saving export settings for different outputs",
+    "Creating text styles",
+    "Applying image effects"
+  ],
+  "answer": 1
+},
+{
+  "id": 85,
+  "question": "Why is bleed included in print documents?",
+  "options": [
+    "Define inner margin",
+    "Ensure no white edges after trimming",
+    "Mark imposition",
+    "Define spine area"
+  ],
+  "answer": 1
+},
+{
+  "id": 86,
+  "question": "What does Separations mean in print preparation?",
+  "options": [
+    "Separating text and images",
+    "Dividing colours into CMYK plates",
+    "Separating chapters",
+    "Removing backgrounds"
+  ],
+  "answer": 1
+},
+{
+  "id": 87,
+  "question": "Which feature automatically generates a table of contents in InDesign?",
+  "options": [
+    "Book Panel",
+    "Index Panel",
+    "Table of Contents (TOC)",
+    "Data Merge"
+  ],
+  "answer": 2
+},
+{
+  "id": 88,
+  "question": "What is the correct term for converting text into vector graphics to avoid font issues?",
+  "options": [
+    "Rasterizing Text",
+    "Creating Outlines",
+    "Embedding Fonts",
+    "Linking Text"
+  ],
+  "answer": 1
+},
+{
+  "id": 89,
+  "question": "What is an InDesign Package primarily used for?",
+  "options": [
+    "Archiving PDFs",
+    "Collecting document, fonts, and links for sharing",
+    "Publishing e-books",
+    "Encrypting files"
+  ],
+  "answer": 1
+},
+{
+  "id": 90,
+  "question": "Which feature resizes frames to fit their content?",
+  "options": [
+    "Selection Tool",
+    "Content Grabber",
+    "Fitting Commands",
+    "Crop Tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 91,
+  "question": "What is the purpose of Notes in InDesign?",
+  "options": [
+    "Apply image reminders",
+    "Add non-printing comments",
+    "Create footnotes",
+    "Track revisions"
+  ],
+  "answer": 1
+},
+{
+  "id": 92,
+  "question": "Which tool edits anchor points of a vector path?",
+  "options": [
+    "Selection Tool",
+    "Direct Selection Tool",
+    "Pen Tool",
+    "Free Transform Tool"
+  ],
+  "answer": 1
+},
+{
+  "id": 93,
+  "question": "What is the standard resolution for professional print images?",
+  "options": [
+    "72 DPI",
+    "150 DPI",
+    "300 DPI",
+    "600 DPI"
+  ],
+  "answer": 2
+},
+{
+  "id": 94,
+  "question": "What is the main difference between embedding and linking images?",
+  "options": [
+    "Embedding lowers quality",
+    "Embedding increases file size; linking keeps file smaller",
+    "Linking is non-editable",
+    "Embedding is only for print"
+  ],
+  "answer": 1
+},
+{
+  "id": 95,
+  "question": "Which panel controls visibility and stacking order?",
+  "options": [
+    "Pages Panel",
+    "Swatches Panel",
+    "Layers Panel",
+    "Links Panel"
+  ],
+  "answer": 2
+},
+{
+  "id": 96,
+  "question": "What does gutter mean in page layout?",
+  "options": [
+    "Top margin",
+    "Space between columns or inner margins",
+    "Bleed area",
+    "Footnote space"
+  ],
+  "answer": 1
+},
+{
+  "id": 97,
+  "question": "What does the Gradient Tool do?",
+  "options": [
+    "Create 3D effects",
+    "Apply smooth colour transitions",
+    "Adjust brightness",
+    "Soften text edges"
+  ],
+  "answer": 1
+},
+{
+  "id": 98,
+  "question": "What is Data Merge used for?",
+  "options": [
+    "Combining documents",
+    "Creating personalized documents from data",
+    "Merging colours",
+    "Combining frames"
+  ],
+  "answer": 1
+},
+{
+  "id": 99,
+  "question": "Which is the native editable InDesign file format?",
+  "options": [
+    "PDF",
+    "EPS",
+    "INDD",
+    "IDML"
+  ],
+  "answer": 2
+},
+{
+  "id": 100,
+  "question": "Why is IDML format useful?",
+  "options": [
+    "Smallest file size",
+    "Final print ready",
+    "Backward compatibility",
+    "Text-only storage"
+  ],
+  "answer": 2
+}
+]
+}

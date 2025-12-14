@@ -1,0 +1,1104 @@
+{
+  "module": "Module 5 – Concepts of DBMS",
+  "questions": [{
+  "id": 1,
+  "question": "What is a collection of interrelated data and a set of programs to access that data called?",
+  "options": [
+    "Database System",
+    "Database Management System (DBMS)",
+    "Database",
+    "Data Warehouse"
+  ],
+  "answer": 1
+},
+{
+  "id": 2,
+  "question": "Which of the following is an advantage of using a DBMS?",
+  "options": [
+    "Increased data redundancy",
+    "Improved data sharing",
+    "Reduced data security",
+    "Limited concurrent access"
+  ],
+  "answer": 1
+},
+{
+  "id": 3,
+  "question": "The structure of the database is called the:",
+  "options": [
+    "Schema",
+    "Instance",
+    "Relation",
+    "Data Model"
+  ],
+  "answer": 0
+},
+{
+  "id": 4,
+  "question": "A database is defined as:",
+  "options": [
+    "An application program",
+    "A collection of information organized to be easily accessed, managed, and updated",
+    "A software for creating and managing databases",
+    "A set of integrity constraints"
+  ],
+  "answer": 1
+},
+{
+  "id": 5,
+  "question": "Which term refers to data about data?",
+  "options": [
+    "Schema",
+    "Instance",
+    "Metadata",
+    "Data Dictionary"
+  ],
+  "answer": 2
+},
+{
+  "id": 6,
+  "question": "A DBMS provides a mechanism to enforce the principle of:",
+  "options": [
+    "Data inconsistency",
+    "Data redundancy",
+    "Data integrity",
+    "Data isolation"
+  ],
+  "answer": 2
+},
+{
+  "id": 7,
+  "question": "What does DBMS stand for?",
+  "options": [
+    "Data Backup Management System",
+    "Database Management Software",
+    "Database Management System",
+    "Data-Based Management Solution"
+  ],
+  "answer": 2
+},
+{
+  "id": 8,
+  "question": "The overall description of the database is the:",
+  "options": [
+    "Database instance",
+    "Database schema",
+    "Data definition",
+    "Data manipulation"
+  ],
+  "answer": 1
+},
+{
+  "id": 9,
+  "question": "Which DBMS characteristic ensures that all data is accurate and consistent?",
+  "options": [
+    "Data independence",
+    "Data abstraction",
+    "Data integrity",
+    "Data redundancy control"
+  ],
+  "answer": 2
+},
+{
+  "id": 10,
+  "question": "Providing users with an abstract view of data is known as:",
+  "options": [
+    "Data independence",
+    "Data abstraction",
+    "Data security",
+    "Data manipulation"
+  ],
+  "answer": 1
+},
+{
+  "id": 11,
+  "question": "Which of the following is NOT a primary function of a DBMS?",
+  "options": [
+    "Data storage, retrieval, and update",
+    "Data definition and catalog management",
+    "User interface and application program development",
+    "Data processing speed optimization in the application layer"
+  ],
+  "answer": 3
+},
+{
+  "id": 12,
+  "question": "The ability to modify the database schema without rewriting application programs is called:",
+  "options": [
+    "Physical data independence",
+    "Logical data independence",
+    "Data redundancy",
+    "Data integration"
+  ],
+  "answer": 0
+},
+{
+  "id": 13,
+  "question": "Which level of abstraction describes what data is stored and relationships among data?",
+  "options": [
+    "Physical level",
+    "Conceptual level",
+    "External level",
+    "View level"
+  ],
+  "answer": 1
+},
+{
+  "id": 14,
+  "question": "The collection of all data at a particular moment is called the:",
+  "options": [
+    "Schema",
+    "Instance",
+    "Data model",
+    "Relation"
+  ],
+  "answer": 1
+},
+{
+  "id": 15,
+  "question": "Which is a disadvantage of a file-processing system?",
+  "options": [
+    "High cost",
+    "Simple data retrieval",
+    "Data redundancy and inconsistency",
+    "Complex backup procedures"
+  ],
+  "answer": 2
+},
+{
+  "id": 16,
+  "question": "Which DBMS component manages interaction with physical storage?",
+  "options": [
+    "Query Processor",
+    "Storage Manager",
+    "Transaction Manager",
+    "DDL Compiler"
+  ],
+  "answer": 1
+},
+{
+  "id": 17,
+  "question": "Access restrictions in a DBMS ensure:",
+  "options": [
+    "Data redundancy",
+    "Data security",
+    "Data sharing",
+    "Data manipulation"
+  ],
+  "answer": 1
+},
+{
+  "id": 18,
+  "question": "Having multiple copies of the same data is called:",
+  "options": [
+    "Data integrity",
+    "Data redundancy",
+    "Data concurrency",
+    "Data recovery"
+  ],
+  "answer": 1
+},
+{
+  "id": 19,
+  "question": "The goal of the database approach is to:",
+  "options": [
+    "Increase redundancy",
+    "Efficiently manage large volumes of data",
+    "Decrease data sharing",
+    "Separate metadata from data"
+  ],
+  "answer": 1
+},
+{
+  "id": 20,
+  "question": "The way data is actually stored on storage devices is called:",
+  "options": [
+    "Logical view",
+    "External view",
+    "Physical data independence",
+    "Physical level"
+  ],
+  "answer": 3
+},
+{
+  "id": 21,
+  "question": "The concept of Data Manipulation refers to:",
+  "options": [
+    "Defining the structure of the database",
+    "Adding, deleting, retrieving, and modifying data",
+    "Managing user access rights",
+    "Backing up the database structure"
+  ],
+  "answer": 1
+},
+{
+  "id": 22,
+  "question": "In a Relational Database, data is stored in the form of:",
+  "options": [
+    "Tree structures",
+    "Graph structures",
+    "Tables (Relations)",
+    "Linked lists"
+  ],
+  "answer": 2
+},
+{
+  "id": 23,
+  "question": "Which type of database integrity ensures that a primary key value is unique and not null?",
+  "options": [
+    "Referential Integrity",
+    "Domain Integrity",
+    "Entity Integrity",
+    "User-defined Integrity"
+  ],
+  "answer": 2
+},
+{
+  "id": 24,
+  "question": "Which SQL command is used to add new records to a table?",
+  "options": [
+    "UPDATE",
+    "INSERT INTO",
+    "ADD ROW",
+    "CREATE"
+  ],
+  "answer": 1
+},
+{
+  "id": 25,
+  "question": "Which SQL command belongs to Data Definition Language (DDL)?",
+  "options": [
+    "SELECT",
+    "INSERT",
+    "DROP",
+    "UPDATE"
+  ],
+  "answer": 2
+},
+{
+  "id": 26,
+  "question": "Which integrity constraint ensures a foreign key refers to an existing primary key?",
+  "options": [
+    "Entity Integrity",
+    "Domain Integrity",
+    "Referential Integrity",
+    "Key Constraint"
+  ],
+  "answer": 2
+},
+{
+  "id": 27,
+  "question": "Which SQL keyword is used to modify existing records?",
+  "options": [
+    "CHANGE",
+    "MODIFY",
+    "UPDATE",
+    "ALTER"
+  ],
+  "answer": 2
+},
+{
+  "id": 28,
+  "question": "Which SQL command permanently removes a table and its data?",
+  "options": [
+    "DELETE TABLE",
+    "REMOVE TABLE",
+    "DROP TABLE",
+    "TRUNCATE TABLE"
+  ],
+  "answer": 2
+},
+{
+  "id": 29,
+  "question": "Which SQL command retrieves data from a database?",
+  "options": [
+    "FETCH",
+    "SELECT",
+    "GET",
+    "EXTRACT"
+  ],
+  "answer": 1
+},
+{
+  "id": 30,
+  "question": "Which constraint restricts the type or range of values in a column?",
+  "options": [
+    "Entity Integrity",
+    "Domain Integrity",
+    "Referential Integrity",
+    "Null Constraint"
+  ],
+  "answer": 1
+},
+{
+  "id": 31,
+  "question": "Which SQL command is used to change the structure of a table?",
+  "options": [
+    "MODIFY TABLE",
+    "ALTER TABLE",
+    "CHANGE STRUCTURE",
+    "UPDATE TABLE"
+  ],
+  "answer": 1
+},
+{
+  "id": 32,
+  "question": "What does the DELETE command do in SQL?",
+  "options": [
+    "Removes a table structure",
+    "Removes one or more rows from a table",
+    "Removes a column",
+    "Removes the database"
+  ],
+  "answer": 1
+},
+{
+  "id": 33,
+  "question": "A Relational Database is based on which concept?",
+  "options": [
+    "Set theory",
+    "Relational algebra",
+    "Predicate calculus",
+    "All of the above"
+  ],
+  "answer": 3
+},
+{
+  "id": 34,
+  "question": "Which SQL commands are part of Data Manipulation Language (DML)?",
+  "options": [
+    "CREATE, ALTER, DROP",
+    "SELECT, INSERT, UPDATE, DELETE",
+    "GRANT, REVOKE",
+    "COMMIT, ROLLBACK"
+  ],
+  "answer": 1
+},
+{
+  "id": 35,
+  "question": "In a relational database, the term Relation refers to a:",
+  "options": [
+    "Row",
+    "Column",
+    "Table",
+    "Field"
+  ],
+  "answer": 2
+},
+{
+  "id": 36,
+  "question": "The NULL value in a table indicates:",
+  "options": [
+    "Zero",
+    "Space",
+    "Undefined or not applicable value",
+    "Empty string"
+  ],
+  "answer": 2
+},
+{
+  "id": 37,
+  "question": "Which clause filters records in a SELECT statement?",
+  "options": [
+    "GROUP BY",
+    "HAVING",
+    "WHERE",
+    "ORDER BY"
+  ],
+  "answer": 2
+},
+{
+  "id": 38,
+  "question": "What is the purpose of the PRIMARY KEY constraint?",
+  "options": [
+    "Enforce domain integrity",
+    "Uniquely identify records and prevent null values",
+    "Link tables",
+    "Allow duplicate values"
+  ],
+  "answer": 1
+},
+{
+  "id": 39,
+  "question": "Which SQL command removes all rows but keeps the table structure?",
+  "options": [
+    "DELETE ALL",
+    "DROP",
+    "REMOVE",
+    "TRUNCATE"
+  ],
+  "answer": 3
+},
+{
+  "id": 40,
+  "question": "To modify a table structure such as adding a column, which SQL command is used?",
+  "options": [
+    "INSERT",
+    "UPDATE",
+    "ALTER TABLE",
+    "SELECT"
+  ],
+  "answer": 2
+},
+{
+  "id": 41,
+  "question": "In MS Access, which object is primarily used to store data?",
+  "options": [
+    "Form",
+    "Query",
+    "Report",
+    "Table"
+  ],
+  "answer": 3
+},
+{
+  "id": 42,
+  "question": "An MS Access Form is mainly used for:",
+  "options": [
+    "Summarizing data for printing",
+    "Defining relationships between tables",
+    "Providing a user interface for entering and editing data",
+    "Storing complex calculations"
+  ],
+  "answer": 2
+},
+{
+  "id": 43,
+  "question": "Which MS Access object retrieves specific data from tables?",
+  "options": [
+    "Report",
+    "Query",
+    "Module",
+    "Macro"
+  ],
+  "answer": 1
+},
+{
+  "id": 44,
+  "question": "Which form control is used to display non-editable text?",
+  "options": [
+    "Text Box",
+    "Label",
+    "Combo Box",
+    "Button"
+  ],
+  "answer": 1
+},
+{
+  "id": 45,
+  "question": "Which control lets users choose from a predefined list?",
+  "options": [
+    "Text Box",
+    "Label",
+    "List Box or Combo Box",
+    "Command Button"
+  ],
+  "answer": 2
+},
+{
+  "id": 46,
+  "question": "What is the primary function of a Command Button in MS Access?",
+  "options": [
+    "Display form title",
+    "Execute actions such as macros or VBA code",
+    "Enter text data",
+    "Select list values"
+  ],
+  "answer": 1
+},
+{
+  "id": 47,
+  "question": "What does GUI stand for in MS Access?",
+  "options": [
+    "General User Integration",
+    "Global Update Interface",
+    "Graphical User Interface",
+    "Group Utility Icon"
+  ],
+  "answer": 2
+},
+{
+  "id": 48,
+  "question": "Which MS Access object is used for formatted output and does not allow data entry?",
+  "options": [
+    "Table",
+    "Query",
+    "Report",
+    "Form"
+  ],
+  "answer": 2
+},
+{
+  "id": 49,
+  "question": "A form control bound to a table field is called a:",
+  "options": [
+    "Unbound Control",
+    "Calculated Control",
+    "Bound Control",
+    "Primary Control"
+  ],
+  "answer": 2
+},
+{
+  "id": 50,
+  "question": "To create a SELECT query without writing SQL manually, which view is used?",
+  "options": [
+    "Report Wizard",
+    "Form Design View",
+    "Query Design View",
+    "Table Design View"
+  ],
+  "answer": 2
+},
+{
+  "id": 51,
+  "question": "Which control is essential for editing alphanumeric data on a form?",
+  "options": [
+    "Label",
+    "Text Box",
+    "Combo Box",
+    "Check Box"
+  ],
+  "answer": 1
+},
+{
+  "id": 52,
+  "question": "To present queried data in a user-friendly input format, you would create a:",
+  "options": [
+    "Report",
+    "Macro",
+    "Form",
+    "Table"
+  ],
+  "answer": 2
+},
+{
+  "id": 53,
+  "question": "The Record Source property defines:",
+  "options": [
+    "Colour scheme",
+    "Data source (table or query)",
+    "Font settings",
+    "Designer name"
+  ],
+  "answer": 1
+},
+{
+  "id": 54,
+  "question": "Which control is best for Yes/No fields?",
+  "options": [
+    "Text Box",
+    "List Box",
+    "Check Box",
+    "Option Group"
+  ],
+  "answer": 2
+},
+{
+  "id": 55,
+  "question": "Which feature organizes report data with summaries?",
+  "options": [
+    "Control Wizards",
+    "Grouping and Sorting",
+    "Combo Boxes",
+    "Web Browsing"
+  ],
+  "answer": 1
+},
+{
+  "id": 56,
+  "question": "Navigating records using a form is commonly called:",
+  "options": [
+    "SQL manipulation",
+    "Browsing a form",
+    "Table structuring",
+    "Data definition"
+  ],
+  "answer": 1
+},
+{
+  "id": 57,
+  "question": "What is the main advantage of using Forms over Tables?",
+  "options": [
+    "Faster sorting",
+    "User-friendly controlled interface",
+    "Cannot store calculated values",
+    "Supports SQL"
+  ],
+  "answer": 1
+},
+{
+  "id": 58,
+  "question": "A Web Page Report in MS Access is used to:",
+  "options": [
+    "Store data",
+    "Publish reports for web viewing",
+    "Manage permissions",
+    "Input data"
+  ],
+  "answer": 1
+},
+{
+  "id": 59,
+  "question": "Which MS Access object automates common tasks?",
+  "options": [
+    "Table",
+    "Report",
+    "Macro or Module",
+    "Query"
+  ],
+  "answer": 2
+},
+{
+  "id": 60,
+  "question": "How does a List Box differ from a Combo Box?",
+  "options": [
+    "Allows new values",
+    "Always shows multiple rows",
+    "Stores numeric data only",
+    "Used for labels"
+  ],
+  "answer": 1
+},
+{
+  "id": 61,
+  "question": "To create a new table named Students in MySQL, which SQL command is used?",
+  "options": [
+    "INSERT INTO Students",
+    "CREATE TABLE Students",
+    "NEW TABLE Students",
+    "SELECT FROM Students"
+  ],
+  "answer": 1
+},
+{
+  "id": 62,
+  "question": "Which MySQL data type is used for whole numbers?",
+  "options": [
+    "VARCHAR",
+    "TEXT",
+    "INT",
+    "DATE"
+  ],
+  "answer": 2
+},
+{
+  "id": 63,
+  "question": "Which MySQL data type is used for variable-length text?",
+  "options": [
+    "CHAR",
+    "TEXT",
+    "VARCHAR",
+    "BLOB"
+  ],
+  "answer": 2
+},
+{
+  "id": 64,
+  "question": "The NOT NULL constraint means a column:",
+  "options": [
+    "Must contain zero",
+    "Must not contain any value",
+    "Must have a value",
+    "Must contain a space"
+  ],
+  "answer": 2
+},
+{
+  "id": 65,
+  "question": "Which MySQL constraint ensures no duplicate values in a column?",
+  "options": [
+    "PRIMARY KEY",
+    "FOREIGN KEY",
+    "NOT NULL",
+    "UNIQUE"
+  ],
+  "answer": 3
+},
+{
+  "id": 66,
+  "question": "Which SQL clause sorts the result of a SELECT query?",
+  "options": [
+    "SORT BY",
+    "ARRANGE",
+    "ORDER BY",
+    "GROUP BY"
+  ],
+  "answer": 2
+},
+{
+  "id": 67,
+  "question": "A FOREIGN KEY enforces which type of integrity?",
+  "options": [
+    "Domain Integrity",
+    "Entity Integrity",
+    "Referential Integrity",
+    "User-defined Integrity"
+  ],
+  "answer": 2
+},
+{
+  "id": 68,
+  "question": "Which query retrieves customers whose age is greater than 25?",
+  "options": [
+    "SELECT FROM Customers GROUP BY age > 25",
+    "SELECT FROM Customers WHERE age > 25",
+    "GET FROM Customers HAVING age > 25",
+    "EXTRACT FROM Customers WITH age > 25"
+  ],
+  "answer": 1
+},
+{
+  "id": 69,
+  "question": "Which functions calculate SUM, AVG, or COUNT in MySQL?",
+  "options": [
+    "Set functions",
+    "Conditional functions",
+    "Aggregate functions",
+    "Data types"
+  ],
+  "answer": 2
+},
+{
+  "id": 70,
+  "question": "Which clause groups rows for aggregate functions?",
+  "options": [
+    "ORDER BY",
+    "WHERE",
+    "GROUP BY",
+    "HAVING"
+  ],
+  "answer": 2
+},
+{
+  "id": 71,
+  "question": "Which SQL command combines rows from multiple tables?",
+  "options": [
+    "COMBINE",
+    "MERGE",
+    "JOIN",
+    "ATTACH"
+  ],
+  "answer": 2
+},
+{
+  "id": 72,
+  "question": "What does the PRIMARY KEY constraint imply?",
+  "options": [
+    "UNIQUE but allows NULL",
+    "NOT NULL but allows duplicates",
+    "UNIQUE and NOT NULL",
+    "FOREIGN KEY"
+  ],
+  "answer": 2
+},
+{
+  "id": 73,
+  "question": "ALTER TABLE belongs to which SQL category?",
+  "options": [
+    "DML",
+    "DDL",
+    "DQL",
+    "DCL"
+  ],
+  "answer": 1
+},
+{
+  "id": 74,
+  "question": "How do you remove a column named Email from Users table?",
+  "options": [
+    "ALTER TABLE Users DROP Email",
+    "DROP COLUMN Email FROM Users",
+    "DELETE COLUMN Email FROM Users",
+    "ALTER TABLE Users REMOVE COLUMN Email"
+  ],
+  "answer": 0
+},
+{
+  "id": 75,
+  "question": "Which keyword auto-generates sequential numbers?",
+  "options": [
+    "SERIALIZE",
+    "AUTO_INCREMENT",
+    "UNIQUEID",
+    "INCREMENT"
+  ],
+  "answer": 1
+},
+{
+  "id": 76,
+  "question": "Which clause filters grouped results?",
+  "options": [
+    "WHERE",
+    "GROUP BY",
+    "HAVING",
+    "ORDER BY"
+  ],
+  "answer": 2
+},
+{
+  "id": 77,
+  "question": "Which operator is used for pattern matching?",
+  "options": [
+    "MATCH",
+    "PATTERN",
+    "LIKE",
+    "CONTAINS"
+  ],
+  "answer": 2
+},
+{
+  "id": 78,
+  "question": "UPDATE Students SET Grade='A' WHERE StudentID=101 is an example of:",
+  "options": [
+    "DDL",
+    "DQL",
+    "DML",
+    "TCL"
+  ],
+  "answer": 2
+},
+{
+  "id": 79,
+  "question": "Which query retrieves unique city names?",
+  "options": [
+    "SELECT DISTINCT City FROM Customers",
+    "SELECT UNIQUE City FROM Customers",
+    "SELECT City FROM Customers GROUP BY City",
+    "SELECT City FROM Customers WHERE UNIQUE"
+  ],
+  "answer": 0
+},
+{
+  "id": 80,
+  "question": "In MySQL, a VIEW is a:",
+  "options": [
+    "Stored file",
+    "Virtual table based on a query",
+    "User interface",
+    "Automation object"
+  ],
+  "answer": 1
+},
+{
+  "id": 81,
+  "question": "What is the full form of SQL?",
+  "options": [
+    "Simple Query Language",
+    "Structured Query Logic",
+    "Structured Question Language",
+    "Structured Query Language"
+  ],
+  "answer": 3
+},
+{
+  "id": 82,
+  "question": "Who proposed the relational model?",
+  "options": [
+    "Bill Gates",
+    "E. F. Codd",
+    "Charles Bachman",
+    "Larry Ellison"
+  ],
+  "answer": 1
+},
+{
+  "id": 83,
+  "question": "Which MS Access tool generates a form automatically from a table or query?",
+  "options": [
+    "Report Wizard",
+    "Form Wizard",
+    "Query Builder",
+    "Table Designer"
+  ],
+  "answer": 1
+},
+{
+  "id": 84,
+  "question": "Which database concept focuses on a single logical source of data?",
+  "options": [
+    "Data inconsistency",
+    "Data centralization",
+    "Program-data dependence",
+    "Data isolation"
+  ],
+  "answer": 1
+},
+{
+  "id": 85,
+  "question": "In MySQL, which clause is used with ALTER TABLE to add a new column?",
+  "options": [
+    "ADD COLUMN",
+    "NEW COLUMN",
+    "CREATE COLUMN",
+    "INSERT COLUMN"
+  ],
+  "answer": 0
+},
+{
+  "id": 86,
+  "question": "A tuple in a relational database corresponds to a:",
+  "options": [
+    "Table",
+    "Column",
+    "Row",
+    "Database"
+  ],
+  "answer": 2
+},
+{
+  "id": 87,
+  "question": "MS Access is classified as a:",
+  "options": [
+    "Distributed DBMS",
+    "Enterprise DBMS",
+    "Desktop DBMS",
+    "NoSQL Database"
+  ],
+  "answer": 2
+},
+{
+  "id": 88,
+  "question": "Which SQL command is used to delete an existing VIEW?",
+  "options": [
+    "DELETE VIEW",
+    "REMOVE VIEW",
+    "DROP VIEW",
+    "ALTER VIEW"
+  ],
+  "answer": 2
+},
+{
+  "id": 89,
+  "question": "Which CRUD operation corresponds to the UPDATE command?",
+  "options": [
+    "Create",
+    "Read",
+    "Update",
+    "Delete"
+  ],
+  "answer": 2
+},
+{
+  "id": 90,
+  "question": "In MS Access, which control is primarily used to perform actions on a form?",
+  "options": [
+    "Label",
+    "Text Box",
+    "Command Button",
+    "List Box"
+  ],
+  "answer": 2
+},
+{
+  "id": 91,
+  "question": "How many PRIMARY KEYs can a table have?",
+  "options": [
+    "Zero",
+    "One",
+    "Two",
+    "Unlimited"
+  ],
+  "answer": 1
+},
+{
+  "id": 92,
+  "question": "Which SQL clause removes duplicate rows from query results?",
+  "options": [
+    "UNIQUE",
+    "DISTINCT",
+    "PRIMARY",
+    "NOT NULL"
+  ],
+  "answer": 1
+},
+{
+  "id": 93,
+  "question": "What is the main role of Data Definition Language (DDL)?",
+  "options": [
+    "Retrieve data",
+    "Define and manage database schema",
+    "Manipulate data",
+    "Control user access"
+  ],
+  "answer": 1
+},
+{
+  "id": 94,
+  "question": "Which MySQL data type stores date values (Year-Month-Day)?",
+  "options": [
+    "TIME",
+    "DATE",
+    "DATETIME",
+    "YEAR"
+  ],
+  "answer": 1
+},
+{
+  "id": 95,
+  "question": "In MS Access Forms, GUI stands for:",
+  "options": [
+    "Global Unique Identifier",
+    "Graphic Update Interface",
+    "Graphical User Interface",
+    "General Utility Information"
+  ],
+  "answer": 2
+},
+{
+  "id": 96,
+  "question": "Which integrity constraint is associated with FOREIGN KEY?",
+  "options": [
+    "Entity Integrity",
+    "Domain Integrity",
+    "Referential Integrity",
+    "Not Null Constraint"
+  ],
+  "answer": 2
+},
+{
+  "id": 97,
+  "question": "Which of the following is NOT a Data Manipulation operation?",
+  "options": [
+    "INSERT",
+    "UPDATE",
+    "SELECT",
+    "CREATE"
+  ],
+  "answer": 3
+},
+{
+  "id": 98,
+  "question": "In queries, the asterisk (*) symbol is used to:",
+  "options": [
+    "Perform multiplication",
+    "Retrieve all columns",
+    "Specify an index",
+    "Denote required field"
+  ],
+  "answer": 1
+},
+{
+  "id": 99,
+  "question": "Which DBMS advantage improves concurrent access by multiple users?",
+  "options": [
+    "Data redundancy control",
+    "Backup and recovery",
+    "Data integrity",
+    "Improved data sharing"
+  ],
+  "answer": 3
+},
+{
+  "id": 100,
+  "question": "What does the DEFAULT option specify in table creation?",
+  "options": [
+    "Value used if no value is supplied",
+    "Column must be primary key",
+    "Column must be unique",
+    "Maximum column length"
+  ],
+  "answer": 0
+}
+ ]
+}

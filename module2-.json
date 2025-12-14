@@ -1,0 +1,1302 @@
+{
+  "module": "Module 2–System Maintenance and information security ",
+  "questions": [{
+  "id": 1,
+  "question": "Which component is considered the brain of the computer?",
+  "options": [
+    "RAM",
+    "CPU",
+    "FSB",
+    "Cache"
+  ],
+  "answer": 1
+},
+{
+  "id": 2,
+  "question": "What does FSB stand for in computer architecture?",
+  "options": [
+    "Fast System Bus",
+    "Final Service Block",
+    "Front Side Bus",
+    "File Synchronization Backup"
+  ],
+  "answer": 2
+},
+{
+  "id": 3,
+  "question": "Which type of memory is volatile and loses data when power is turned off?",
+  "options": [
+    "ROM",
+    "Hard Drive",
+    "RAM",
+    "SSD"
+  ],
+  "answer": 2
+},
+{
+  "id": 4,
+  "question": "Which interface was traditionally used for older internal hard drives before SATA?",
+  "options": [
+    "USB",
+    "SCSI",
+    "PATA",
+    "PCIe"
+  ],
+  "answer": 2
+},
+{
+  "id": 5,
+  "question": "What is a common indicator of a power supply unit (PSU) failure?",
+  "options": [
+    "High-pitched beeping",
+    "Screen flickering",
+    "Computer fails to power on",
+    "Slow application loading"
+  ],
+  "answer": 2
+},
+{
+  "id": 6,
+  "question": "POST (Power-On Self-Test) is initiated by which component?",
+  "options": [
+    "Operating System",
+    "Hard Drive",
+    "BIOS/UEFI",
+    "CPU Cache"
+  ],
+  "answer": 2
+},
+{
+  "id": 7,
+  "question": "A POST error code usually indicates a problem with:",
+  "options": [
+    "Application software",
+    "Hardware initialization",
+    "Network connection",
+    "Corrupted files"
+  ],
+  "answer": 1
+},
+{
+  "id": 8,
+  "question": "Which term describes a non-fatal error that prevents the operating system from loading?",
+  "options": [
+    "BSOD",
+    "Application crash",
+    "Boot failure",
+    "Cache miss"
+  ],
+  "answer": 2
+},
+{
+  "id": 9,
+  "question": "What is the primary purpose of CPU cache memory?",
+  "options": [
+    "Store the operating system",
+    "Act as system RAM",
+    "Store frequently accessed data",
+    "Manage power distribution"
+  ],
+  "answer": 2
+},
+{
+  "id": 10,
+  "question": "Which storage device uses rotating magnetic platters?",
+  "options": [
+    "SSD",
+    "Hard Disk Drive (HDD)",
+    "RAM",
+    "USB Flash Drive"
+  ],
+  "answer": 1
+},
+{
+  "id": 11,
+  "question": "Which device produces a hard copy of electronic documents?",
+  "options": [
+    "Scanner",
+    "Monitor",
+    "Printer",
+    "Modem"
+  ],
+  "answer": 2
+},
+{
+  "id": 12,
+  "question": "Which device converts analog signals to digital signals for communication over telephone lines?",
+  "options": [
+    "Router",
+    "Switch",
+    "Modem",
+    "Hub"
+  ],
+  "answer": 2
+},
+{
+  "id": 13,
+  "question": "Which interface is commonly used to connect peripherals like keyboard and mouse?",
+  "options": [
+    "HDMI",
+    "VGA",
+    "USB",
+    "Ethernet"
+  ],
+  "answer": 2
+},
+{
+  "id": 14,
+  "question": "Which technology uses radio waves for short-range wireless communication?",
+  "options": [
+    "Wi-Fi",
+    "NFC",
+    "Infrared",
+    "Bluetooth"
+  ],
+  "answer": 3
+},
+{
+  "id": 15,
+  "question": "Which device converts physical documents into digital format?",
+  "options": [
+    "Printer",
+    "Monitor",
+    "Scanner",
+    "Plotter"
+  ],
+  "answer": 2
+},
+{
+  "id": 16,
+  "question": "Wireless devices primarily refer to devices that:",
+  "options": [
+    "Have no power cables",
+    "Use infrared only",
+    "Connect without physical network cables",
+    "Use Bluetooth only"
+  ],
+  "answer": 2
+},
+{
+  "id": 17,
+  "question": "What is the first troubleshooting step for a non-working peripheral?",
+  "options": [
+    "Reinstall OS",
+    "Check cable connection and power",
+    "Upgrade CPU",
+    "Format hard drive"
+  ],
+  "answer": 1
+},
+{
+  "id": 18,
+  "question": "What is the primary function of a monitor?",
+  "options": [
+    "Input data",
+    "Store data",
+    "Display output",
+    "Connect to internet"
+  ],
+  "answer": 2
+},
+{
+  "id": 19,
+  "question": "Which of the following is an output device?",
+  "options": [
+    "Keyboard",
+    "Mouse",
+    "Speakers",
+    "Microphone"
+  ],
+  "answer": 2
+},
+{
+  "id": 20,
+  "question": "A device driver is software that:",
+  "options": [
+    "Defragments hard drive",
+    "Allows OS to communicate with hardware",
+    "Runs applications",
+    "Controls firmware"
+  ],
+  "answer": 1
+},
+{
+  "id": 21,
+  "question": "What is the common name for a critical system error screen in Windows?",
+  "options": [
+    "Red Screen of Death",
+    "Blue Screen of Death (BSOD)",
+    "Black Screen Error",
+    "Yellow Error Screen"
+  ],
+  "answer": 1
+},
+{
+  "id": 22,
+  "question": "Which Windows mode loads only essential drivers?",
+  "options": [
+    "Normal Mode",
+    "Safe Mode",
+    "Debug Mode",
+    "Administrator Mode"
+  ],
+  "answer": 1
+},
+{
+  "id": 23,
+  "question": "Which command checks and repairs disk errors in Windows?",
+  "options": [
+    "CHKDSK",
+    "MSCONFIG",
+    "FIXMBR",
+    "DEFRAG"
+  ],
+  "answer": 0
+},
+{
+  "id": 24,
+  "question": "FIXMBR is used to repair the:",
+  "options": [
+    "Windows Registry",
+    "Application files",
+    "Master Boot Record",
+    "File system"
+  ],
+  "answer": 2
+},
+{
+  "id": 25,
+  "question": "Which utility manages Windows startup programs and services?",
+  "options": [
+    "CHKDSK",
+    "MSCONFIG",
+    "REGEDIT",
+    "DISKPART"
+  ],
+  "answer": 1
+},
+{
+  "id": 26,
+  "question": "What does a System Restore operation primarily recover?",
+  "options": [
+    "User personal files",
+    "System files, registry settings, and installed programs",
+    "Deleted emails",
+    "Internet history"
+  ],
+  "answer": 1
+},
+{
+  "id": 27,
+  "question": "Where are configuration settings for Microsoft Windows stored?",
+  "options": [
+    "System32 folder",
+    "Program Files",
+    "Windows Registry",
+    "My Documents"
+  ],
+  "answer": 2
+},
+{
+  "id": 28,
+  "question": "What is the general term for malicious software?",
+  "options": [
+    "Driver",
+    "Utility",
+    "Malware",
+    "Firmware"
+  ],
+  "answer": 2
+},
+{
+  "id": 29,
+  "question": "Which option allows rolling back Windows to a previous working state?",
+  "options": [
+    "CHKDSK",
+    "System Restore",
+    "FIXBOOT",
+    "Application repair"
+  ],
+  "answer": 1
+},
+{
+  "id": 30,
+  "question": "Slow performance and frequent application crashes are usually caused by:",
+  "options": [
+    "Power cable issues",
+    "Monitor settings",
+    "Application problems",
+    "USB port failure"
+  ],
+  "answer": 2
+},
+{
+  "id": 31,
+  "question": "Which Indian law deals with cyber crime and electronic commerce?",
+  "options": [
+    "Indian Penal Code",
+    "Information Technology Act",
+    "Consumer Protection Act",
+    "Right to Information Act"
+  ],
+  "answer": 1
+},
+{
+  "id": 32,
+  "question": "Which legal right protects original creative works like software and books?",
+  "options": [
+    "Patent",
+    "Trademark",
+    "Copyright",
+    "Trade secret"
+  ],
+  "answer": 2
+},
+{
+  "id": 33,
+  "question": "Criminal activity committed using computers and the Internet is called:",
+  "options": [
+    "Hacking",
+    "Phishing",
+    "Cyber crime",
+    "Virus"
+  ],
+  "answer": 2
+},
+{
+  "id": 34,
+  "question": "What is a key feature of cloud computing?",
+  "options": [
+    "Local data storage",
+    "Internet-based service delivery",
+    "Only proprietary software",
+    "USB-based connectivity"
+  ],
+  "answer": 1
+},
+{
+  "id": 35,
+  "question": "Which mechanism verifies authenticity and integrity of digital documents?",
+  "options": [
+    "Encryption",
+    "Password",
+    "Digital signature",
+    "VPN"
+  ],
+  "answer": 2
+},
+{
+  "id": 36,
+  "question": "Which initiative focuses on delivering government services electronically?",
+  "options": [
+    "Digital India",
+    "E-Governance",
+    "Smart City",
+    "Make in India"
+  ],
+  "answer": 1
+},
+{
+  "id": 37,
+  "question": "A patent provides protection for:",
+  "options": [
+    "Brand name",
+    "Creative work",
+    "Invention",
+    "Trade secret"
+  ],
+  "answer": 2
+},
+{
+  "id": 38,
+  "question": "Which cloud service model provides virtual machines and storage?",
+  "options": [
+    "SaaS",
+    "PaaS",
+    "IaaS",
+    "FaaS"
+  ],
+  "answer": 2
+},
+{
+  "id": 39,
+  "question": "What is the purpose of Intellectual Property Rights (IPR)?",
+  "options": [
+    "Restrict competition",
+    "Protect creators legally",
+    "Censor online content",
+    "Control hardware sales"
+  ],
+  "answer": 1
+},
+{
+  "id": 40,
+  "question": "Which is an example of a cyber law violation?",
+  "options": [
+    "Hardware failure",
+    "Hacking into a bank server",
+    "Installing a printer",
+    "Disk defragmentation"
+  ],
+  "answer": 1
+},
+{
+  "id": 41,
+  "question": "What is the primary goal of information security?",
+  "options": [
+    "Prevent hardware failure",
+    "Improve system speed",
+    "Protect confidentiality, integrity, and availability",
+    "Increase internet speed"
+  ],
+  "answer": 2
+},
+{
+  "id": 42,
+  "question": "A Denial of Service (DoS) attack aims to:",
+  "options": [
+    "Steal data",
+    "Install malware",
+    "Make services unavailable",
+    "Encrypt files"
+  ],
+  "answer": 2
+},
+{
+  "id": 43,
+  "question": "Which is a preventive measure against malware?",
+  "options": [
+    "Formatting disk",
+    "Restoring backup",
+    "Installing antivirus software",
+    "Changing screen resolution"
+  ],
+  "answer": 2
+},
+{
+  "id": 44,
+  "question": "Which password is considered the most secure?",
+  "options": [
+    "Common word",
+    "Number sequence",
+    "User name",
+    "Complex combination of characters"
+  ],
+  "answer": 3
+},
+{
+  "id": 45,
+  "question": "Which malware replicates itself and spreads to other systems?",
+  "options": [
+    "Adware",
+    "Spyware",
+    "Virus",
+    "Cookie"
+  ],
+  "answer": 2
+},
+{
+  "id": 46,
+  "question": "Which malware secretly monitors user activity?",
+  "options": [
+    "Worm",
+    "Adware",
+    "Spyware",
+    "Trojan Horse"
+  ],
+  "answer": 2
+},
+{
+  "id": 47,
+  "question": "What is the primary purpose of a software patch?",
+  "options": [
+    "Change UI theme",
+    "Fix bugs and vulnerabilities",
+    "Improve hardware",
+    "Convert file system"
+  ],
+  "answer": 1
+},
+{
+  "id": 48,
+  "question": "Which system controls incoming and outgoing network traffic?",
+  "options": [
+    "Router",
+    "Switch",
+    "Firewall",
+    "Modem"
+  ],
+  "answer": 2
+},
+{
+  "id": 49,
+  "question": "A Trojan Horse malware is designed to:",
+  "options": [
+    "Self-replicate",
+    "Encrypt files",
+    "Disguise as legitimate software",
+    "Display advertisements"
+  ],
+  "answer": 2
+},
+{
+  "id": 50,
+  "question": "What does an Intrusion Detection System (IDS) monitor?",
+  "options": [
+    "CPU temperature",
+    "Power usage",
+    "Network and system activities",
+    "Printer status"
+  ],
+  "answer": 2
+},
+{
+  "id": 51,
+  "question": "What is the practice of repeatedly trying passwords until the correct one is found?",
+  "options": [
+    "Phishing",
+    "Brute force attack",
+    "Denial of service",
+    "SQL injection"
+  ],
+  "answer": 1
+},
+{
+  "id": 52,
+  "question": "A worm differs from a virus because it:",
+  "options": [
+    "Requires a host program to spread",
+    "Spreads independently without a host program",
+    "Only targets Mac computers",
+    "Is always beneficial"
+  ],
+  "answer": 1
+},
+{
+  "id": 53,
+  "question": "What is the primary method of distributing software updates?",
+  "options": [
+    "Mail",
+    "Physical media",
+    "Internet",
+    "Bluetooth"
+  ],
+  "answer": 2
+},
+{
+  "id": 54,
+  "question": "Ensuring that only authorized users can access information refers to:",
+  "options": [
+    "Integrity",
+    "Availability",
+    "Confidentiality",
+    "Non-repudiation"
+  ],
+  "answer": 2
+},
+{
+  "id": 55,
+  "question": "Which Windows feature controls programs that can make system changes?",
+  "options": [
+    "Disk Cleanup",
+    "User Account Control (UAC)",
+    "Task Manager",
+    "DirectX"
+  ],
+  "answer": 1
+},
+{
+  "id": 56,
+  "question": "Malware that displays unwanted advertisements is called:",
+  "options": [
+    "Spyware",
+    "Worm",
+    "Adware",
+    "Rootkit"
+  ],
+  "answer": 2
+},
+{
+  "id": 57,
+  "question": "Hardening a Windows workstation involves:",
+  "options": [
+    "Disabling unnecessary services and securing configuration",
+    "Never connecting to the Internet",
+    "Using public Wi-Fi only",
+    "Using simple passwords"
+  ],
+  "answer": 0
+},
+{
+  "id": 58,
+  "question": "A key step in network security configuration is:",
+  "options": [
+    "Changing wallpaper",
+    "Setting screen saver",
+    "Implementing strong access control",
+    "Upgrading CPU"
+  ],
+  "answer": 2
+},
+{
+  "id": 59,
+  "question": "Which malware encrypts user data and demands payment?",
+  "options": [
+    "Spyware",
+    "Adware",
+    "Ransomware",
+    "Keylogger"
+  ],
+  "answer": 2
+},
+{
+  "id": 60,
+  "question": "Preventing unauthorized access requires:",
+  "options": [
+    "Single user system",
+    "No internet connection",
+    "Authentication and authorization",
+    "Only open-source software"
+  ],
+  "answer": 2
+},
+{
+  "id": 61,
+  "question": "What does SHTTP stand for?",
+  "options": [
+    "Secure Hyperlink Transfer Protocol",
+    "Simple Hypertext Transfer Protocol",
+    "Secure Hypertext Transfer Protocol",
+    "System Hardware Test Protocol"
+  ],
+  "answer": 2
+},
+{
+  "id": 62,
+  "question": "Which protocol provides secure web communication indicated by a padlock icon?",
+  "options": [
+    "HTTP",
+    "FTP",
+    "HTTPS",
+    "SMTP"
+  ],
+  "answer": 2
+},
+{
+  "id": 63,
+  "question": "Which protocol is primarily used to send email?",
+  "options": [
+    "POP3",
+    "IMAP",
+    "SMTP",
+    "SHTTP"
+  ],
+  "answer": 2
+},
+{
+  "id": 64,
+  "question": "IM security focuses on:",
+  "options": [
+    "Speeding up the internet",
+    "Protecting instant messaging privacy and integrity",
+    "Changing chat font size",
+    "Blocking all emails"
+  ],
+  "answer": 1
+},
+{
+  "id": 65,
+  "question": "Which browser security measure restricts malicious scripts?",
+  "options": [
+    "Changing background",
+    "Browser security configuration",
+    "Cleaning monitor",
+    "Checking RAM"
+  ],
+  "answer": 1
+},
+{
+  "id": 66,
+  "question": "What does PGP provide for email?",
+  "options": [
+    "Email forwarding",
+    "Spam filtering",
+    "Encryption and digital signatures",
+    "Webmail access"
+  ],
+  "answer": 2
+},
+{
+  "id": 67,
+  "question": "Manipulating the sender’s email address to disguise origin is called:",
+  "options": [
+    "Phishing",
+    "Hoax",
+    "Email header spoofing",
+    "Spamming"
+  ],
+  "answer": 2
+},
+{
+  "id": 68,
+  "question": "An email virus is typically designed to:",
+  "options": [
+    "Change screen color",
+    "Spread by emailing itself to contacts",
+    "Defragment hard drive",
+    "Fix bugs"
+  ],
+  "answer": 1
+},
+{
+  "id": 69,
+  "question": "The main threat of phishing emails is:",
+  "options": [
+    "Excess advertisements",
+    "Wasting storage",
+    "Tricking users into revealing sensitive information",
+    "System reboot"
+  ],
+  "answer": 2
+},
+{
+  "id": 70,
+  "question": "Which security measure uses biological characteristics for access control?",
+  "options": [
+    "Simple password",
+    "Biometrics (fingerprint, retina)",
+    "Public Wi-Fi",
+    "External hard drive"
+  ],
+  "answer": 1
+},
+{
+  "id": 71,
+  "question": "Access control defines:",
+  "options": [
+    "CPU speed",
+    "RAM size",
+    "Who can access a resource",
+    "Screen resolution"
+  ],
+  "answer": 2
+},
+{
+  "id": 72,
+  "question": "Configuring browser security helps to:",
+  "options": [
+    "Increase download speed",
+    "Manage cookies, pop-ups, and scripts",
+    "Change web page colors",
+    "Install hardware"
+  ],
+  "answer": 1
+},
+{
+  "id": 73,
+  "question": "An email client like Outlook is:",
+  "options": [
+    "Web-based email service",
+    "Locally installed email software",
+    "Email server",
+    "Spam filter"
+  ],
+  "answer": 1
+},
+{
+  "id": 74,
+  "question": "Which protocol retrieves email and deletes it from the server?",
+  "options": [
+    "IMAP",
+    "POP3",
+    "SMTP",
+    "HTTP"
+  ],
+  "answer": 1
+},
+{
+  "id": 75,
+  "question": "A fake email header differs from a real one mainly due to:",
+  "options": [
+    "Font color",
+    "Sending date",
+    "Invalid sender details and routing path",
+    "Message length"
+  ],
+  "answer": 2
+},
+{
+  "id": 76,
+  "question": "What does physical security in IT primarily protect?",
+  "options": [
+    "Data from logical attacks",
+    "Physical IT assets from threats like theft or fire",
+    "Firewall configuration",
+    "Password complexity"
+  ],
+  "answer": 1
+},
+{
+  "id": 77,
+  "question": "Which is an essential component of Internet security protocols?",
+  "options": [
+    "Faster keyboard",
+    "Encryption and authentication",
+    "Larger hard drive",
+    "Newer monitor"
+  ],
+  "answer": 1
+},
+{
+  "id": 78,
+  "question": "Biometric authentication is based on:",
+  "options": [
+    "Passwords",
+    "PIN codes",
+    "Unique biological characteristics",
+    "Smart cards"
+  ],
+  "answer": 2
+},
+{
+  "id": 79,
+  "question": "Sending emails using another person's address is considered:",
+  "options": [
+    "Copyright violation",
+    "System optimization",
+    "Impersonation and fraud attempt",
+    "Operating system upgrade"
+  ],
+  "answer": 2
+},
+{
+  "id": 80,
+  "question": "How can a user verify a website’s authenticity?",
+  "options": [
+    "Background color",
+    "HTTPS and SSL certificate",
+    "Image size",
+    "Connection speed"
+  ],
+  "answer": 1
+},
+{
+  "id": 81,
+  "question": "Recovery Time Objective (RTO) refers to:",
+  "options": [
+    "Maximum acceptable data loss",
+    "Time within which systems must be restored",
+    "Risk evaluation period",
+    "Backup frequency"
+  ],
+  "answer": 1
+},
+{
+  "id": 82,
+  "question": "What does a Backup Policy define?",
+  "options": [
+    "Employee work hours",
+    "Internet usage rules",
+    "What data to back up and how often",
+    "Hardware pricing"
+  ],
+  "answer": 2
+},
+{
+  "id": 83,
+  "question": "The primary purpose of a Disaster Recovery Plan (DRP) is to:",
+  "options": [
+    "Prevent minor hardware issues",
+    "Restore IT operations after disasters",
+    "Train staff on software",
+    "Update antivirus databases"
+  ],
+  "answer": 1
+},
+{
+  "id": 84,
+  "question": "Which process evaluates the impact of business operation interruptions?",
+  "options": [
+    "Risk classification",
+    "Business Impact Analysis (BIA)",
+    "Logging and monitoring",
+    "Crisis management"
+  ],
+  "answer": 1
+},
+{
+  "id": 85,
+  "question": "Risk assessment mainly involves:",
+  "options": [
+    "Buying insurance",
+    "Identifying and evaluating risks",
+    "Printing documentation",
+    "Changing display settings"
+  ],
+  "answer": 1
+},
+{
+  "id": 86,
+  "question": "Highly sensitive and difficult-to-replace data is classified as:",
+  "options": [
+    "Public",
+    "Internal",
+    "Confidential / Highly sensitive",
+    "General"
+  ],
+  "answer": 2
+},
+{
+  "id": 87,
+  "question": "Which strategy focuses on reducing risk impact or likelihood?",
+  "options": [
+    "Risk acceptance",
+    "Risk transfer",
+    "Risk mitigation",
+    "Risk avoidance"
+  ],
+  "answer": 2
+},
+{
+  "id": 88,
+  "question": "Collecting and analyzing security event information is known as:",
+  "options": [
+    "Crisis management",
+    "Logging and analysis",
+    "Resource planning",
+    "Asset classification"
+  ],
+  "answer": 1
+},
+{
+  "id": 89,
+  "question": "Before installing a new operating system, an essential step is:",
+  "options": [
+    "Changing CPU",
+    "Creating bootable installation media",
+    "Deleting all applications",
+    "Connecting to the Internet"
+  ],
+  "answer": 1
+},
+{
+  "id": 90,
+  "question": "Dividing a hard disk into logical sections is called:",
+  "options": [
+    "Formatting",
+    "Partitioning",
+    "Defragmenting",
+    "Caching"
+  ],
+  "answer": 1
+},
+{
+  "id": 91,
+  "question": "Which file system is commonly used by modern Windows systems?",
+  "options": [
+    "FAT32",
+    "NTFS",
+    "EXT4",
+    "HFS+"
+  ],
+  "answer": 1
+},
+{
+  "id": 92,
+  "question": "Which file system is commonly used by Linux distributions?",
+  "options": [
+    "NTFS",
+    "FAT32",
+    "EXT4",
+    "HFS+"
+  ],
+  "answer": 2
+},
+{
+  "id": 93,
+  "question": "Which malware encrypts data and demands payment?",
+  "options": [
+    "Adware",
+    "Spyware",
+    "Ransomware",
+    "Virus"
+  ],
+  "answer": 2
+},
+{
+  "id": 94,
+  "question": "Authentication ensures:",
+  "options": [
+    "What resources are available",
+    "Who the user is",
+    "System performance",
+    "Data speed"
+  ],
+  "answer": 1
+},
+{
+  "id": 95,
+  "question": "Authorization determines:",
+  "options": [
+    "User identity",
+    "User permissions",
+    "Password strength",
+    "Network speed"
+  ],
+  "answer": 1
+},
+{
+  "id": 96,
+  "question": "Which protocol is used to securely transfer web pages?",
+  "options": [
+    "HTTP",
+    "FTP",
+    "HTTPS",
+    "SMTP"
+  ],
+  "answer": 2
+},
+{
+  "id": 97,
+  "question": "Which cyber threat tricks users into revealing confidential information?",
+  "options": [
+    "Adware",
+    "Phishing",
+    "Firewall",
+    "Patch"
+  ],
+  "answer": 1
+},
+{
+  "id": 98,
+  "question": "Which security tool monitors traffic to detect suspicious activity?",
+  "options": [
+    "Router",
+    "IDS",
+    "Modem",
+    "Printer"
+  ],
+  "answer": 1
+},
+{
+  "id": 99,
+  "question": "Which principle ensures systems remain accessible when needed?",
+  "options": [
+    "Confidentiality",
+    "Integrity",
+    "Availability",
+    "Authentication"
+  ],
+  "answer": 2
+},
+{
+  "id": 100,
+  "question": "Which process ensures data can be restored after loss?",
+  "options": [
+    "Encryption",
+    "Backup",
+    "Firewall configuration",
+    "Hardening"
+  ],
+  "answer": 1
+},
+{
+  "id": 101,
+  "question": "The network infrastructure for a small office typically includes:",
+  "options": [
+    "Only a printer",
+    "A modem, router, and network cabling",
+    "Modem, router/switch, and cabling (wired/wireless)",
+    "Only one computer"
+  ],
+  "answer": 2
+},
+{
+  "id": 102,
+  "question": "What is the purpose of implementing a resource strategy in disaster management?",
+  "options": [
+    "To organize desk drawers",
+    "To ensure personnel, equipment, and facilities are available for recovery",
+    "To write company history",
+    "To change passwords weekly"
+  ],
+  "answer": 1
+},
+{
+  "id": 103,
+  "question": "In the context of an operating system, security is primarily concerned with:",
+  "options": [
+    "Physical protection of the computer case",
+    "Controlling user access, protecting files, and managing permissions",
+    "System startup speed",
+    "Screen color depth"
+  ],
+  "answer": 1
+},
+{
+  "id": 104,
+  "question": "The process of setting IP address, subnet mask, and gateway on a computer is called:",
+  "options": [
+    "Disk management",
+    "Network configuration",
+    "Driver installation",
+    "Operating system hardening"
+  ],
+  "answer": 1
+},
+{
+  "id": 105,
+  "question": "Writing zeros or a specific pattern to all disk sectors is known as:",
+  "options": [
+    "Quick format",
+    "Low-level format / Secure erase",
+    "Defragmentation",
+    "Error checking"
+  ],
+  "answer": 1
+},
+{
+  "id": 106,
+  "question": "Which phase of an Incident Management Plan focuses on preventing future incidents?",
+  "options": [
+    "Preparation",
+    "Detection and Analysis",
+    "Containment, Eradication, and Recovery",
+    "Post-Incident Activity"
+  ],
+  "answer": 3
+},
+{
+  "id": 107,
+  "question": "Which Linux partition is used as virtual memory when RAM is exhausted?",
+  "options": [
+    "Root (/)",
+    "Home (/home)",
+    "Boot (/boot)",
+    "Swap"
+  ],
+  "answer": 3
+},
+{
+  "id": 108,
+  "question": "A Business Continuity Plan (BCP) ensures that:",
+  "options": [
+    "The company always makes profit",
+    "Essential business functions continue during and after disasters",
+    "Employees receive salary increases",
+    "New software is developed"
+  ],
+  "answer": 1
+},
+{
+  "id": 109,
+  "question": "What is the standard word processor component of LibreOffice?",
+  "options": [
+    "Writer",
+    "WordPad",
+    "Calc",
+    "Impress"
+  ],
+  "answer": 0
+},
+{
+  "id": 110,
+  "question": "What does ODT stand for?",
+  "options": [
+    "Open Data Type",
+    "Office Document Template",
+    "Open Document Text",
+    "Optimized Digital Type"
+  ],
+  "answer": 2
+},
+{
+  "id": 111,
+  "question": "Which LibreOffice component is used for spreadsheets?",
+  "options": [
+    "Sheet",
+    "Excel",
+    "Calc",
+    "Draw"
+  ],
+  "answer": 2
+},
+{
+  "id": 112,
+  "question": "The default file extension for LibreOffice Calc is:",
+  "options": [
+    ".xls",
+    ".xlsx",
+    ".ods",
+    ".odt"
+  ],
+  "answer": 2
+},
+{
+  "id": 113,
+  "question": "Which LibreOffice component is used to create presentations?",
+  "options": [
+    "Draw",
+    "Base",
+    "Impress",
+    "Math"
+  ],
+  "answer": 2
+},
+{
+  "id": 114,
+  "question": "Which shortcut key is used to save a document in LibreOffice?",
+  "options": [
+    "Ctrl + P",
+    "Ctrl + A",
+    "Ctrl + S",
+    "Ctrl + Z"
+  ],
+  "answer": 2
+},
+{
+  "id": 115,
+  "question": "Which LibreOffice component is used for database management?",
+  "options": [
+    "Base",
+    "Draw",
+    "Math",
+    "Writer"
+  ],
+  "answer": 0
+},
+{
+  "id": 116,
+  "question": "Which shortcut key opens the Help feature in LibreOffice?",
+  "options": [
+    "F5",
+    "F12",
+    "F1",
+    "F7"
+  ],
+  "answer": 2
+},
+{
+  "id": 117,
+  "question": "Which is an advantage of LibreOffice?",
+  "options": [
+    "Proprietary software",
+    "Windows-only support",
+    "Open-source and free to use",
+    "Supports only Microsoft formats"
+  ],
+  "answer": 2
+},
+{
+  "id": 118,
+  "question": "The default file extension for LibreOffice Impress is:",
+  "options": [
+    ".ppt",
+    ".pptx",
+    ".odp",
+    ".odi"
+  ],
+  "answer": 2
+}
+]
+}

@@ -1,0 +1,1203 @@
+{
+  "module": "Module 3 – Internet Technology and Web Design",
+  "questions": [{
+  "id": 1,
+  "question": "What is the standard protocol used for sending email?",
+  "options": [
+    "POP3",
+    "FTP",
+    "SMTP",
+    "DHCP"
+  ],
+  "answer": 2
+},
+{
+  "id": 2,
+  "question": "Which term refers to the global network of interconnected computer networks?",
+  "options": [
+    "Intranet",
+    "Extranet",
+    "Internet",
+    "LAN"
+  ],
+  "answer": 2
+},
+{
+  "id": 3,
+  "question": "Which organization coordinates the assignment of domain names and IP addresses on the Internet?",
+  "options": [
+    "W3C",
+    "IEEE",
+    "ICANN",
+    "IETF"
+  ],
+  "answer": 2
+},
+{
+  "id": 4,
+  "question": "What does TCP/IP stand for?",
+  "options": [
+    "Transmission Control Protocol / Internet Protocol",
+    "Transfer Complete Protocol / Internet Process",
+    "Technical Communication Protocol / Internal Protocol",
+    "Terminal Control Point / Internet Process"
+  ],
+  "answer": 0
+},
+{
+  "id": 5,
+  "question": "Which protocol retrieves emails from a mail server and usually removes them from the server?",
+  "options": [
+    "IMAP4",
+    "SMTP",
+    "POP3",
+    "MIME"
+  ],
+  "answer": 2
+},
+{
+  "id": 6,
+  "question": "What is the fundamental language used to create web pages?",
+  "options": [
+    "Java",
+    "SGML",
+    "HTML",
+    "XML"
+  ],
+  "answer": 2
+},
+{
+  "id": 7,
+  "question": "Which device directs data packets between different networks?",
+  "options": [
+    "Switch",
+    "Modem",
+    "Hub",
+    "Router"
+  ],
+  "answer": 3
+},
+{
+  "id": 8,
+  "question": "In networking, what is a host?",
+  "options": [
+    "A web hosting server only",
+    "Any device connected to a network",
+    "A network administrator",
+    "A networking standard"
+  ],
+  "answer": 1
+},
+{
+  "id": 9,
+  "question": "Which type of network covers a small geographic area such as a home or office?",
+  "options": [
+    "WAN",
+    "LAN",
+    "MAN",
+    "SAN"
+  ],
+  "answer": 1
+},
+{
+  "id": 10,
+  "question": "What is the purpose of an IP address?",
+  "options": [
+    "Identifying web documents",
+    "Assigning domain names",
+    "Uniquely identifying a device on a network",
+    "Encrypting communication"
+  ],
+  "answer": 2
+},
+{
+  "id": 11,
+  "question": "What is a firewall?",
+  "options": [
+    "A physical wall protecting servers",
+    "Hardware or software that prevents unauthorized network access",
+    "A data backup system",
+    "A secure file transfer protocol"
+  ],
+  "answer": 1
+},
+{
+  "id": 12,
+  "question": "Which is a secure protocol for transferring files?",
+  "options": [
+    "FTP",
+    "Telnet",
+    "SFTP",
+    "HTTP"
+  ],
+  "answer": 2
+},
+{
+  "id": 13,
+  "question": "What is the main function of a search engine?",
+  "options": [
+    "Hosting websites",
+    "Indexing and searching web content",
+    "Managing emails",
+    "Routing hardware data"
+  ],
+  "answer": 1
+},
+{
+  "id": 14,
+  "question": "What term refers to the rules governing communication on the Internet?",
+  "options": [
+    "Syntax",
+    "Protocols",
+    "Standards",
+    "Algorithms"
+  ],
+  "answer": 1
+},
+{
+  "id": 15,
+  "question": "What does WWW stand for?",
+  "options": [
+    "World Wide Web",
+    "Web World Window",
+    "Wide Web World",
+    "World Web Warehouse"
+  ],
+  "answer": 0
+},
+{
+  "id": 16,
+  "question": "Buying and selling goods over the Internet is known as:",
+  "options": [
+    "Netiquette",
+    "E-commerce",
+    "Telecommuting",
+    "Web hosting"
+  ],
+  "answer": 1
+},
+{
+  "id": 17,
+  "question": "Which HTML tag is used to create a hyperlink?",
+  "options": [
+    "<link>",
+    "<href>",
+    "<a>",
+    "<url>"
+  ],
+  "answer": 2
+},
+{
+  "id": 18,
+  "question": "What is the function of DNS (Domain Name System)?",
+  "options": [
+    "Store web pages",
+    "Translate domain names into IP addresses",
+    "Encrypt traffic",
+    "Control bandwidth"
+  ],
+  "answer": 1
+},
+{
+  "id": 19,
+  "question": "Which protocol is used by browsers to request and display web pages?",
+  "options": [
+    "FTP",
+    "SMTP",
+    "HTTP",
+    "POP3"
+  ],
+  "answer": 2
+},
+{
+  "id": 20,
+  "question": "A topology where all devices share a single central cable is called:",
+  "options": [
+    "Star topology",
+    "Ring topology",
+    "Bus topology",
+    "Mesh topology"
+  ],
+  "answer": 2
+},
+{
+  "id": 21,
+  "question": "What is a client in a client-server network model?",
+  "options": [
+    "A device that requests services from a server",
+    "A device that provides services to others",
+    "The central server itself",
+    "The network administrator"
+  ],
+  "answer": 0
+},
+{
+  "id": 22,
+  "question": "Which of the following is a characteristic of a Wide Area Network (WAN)?",
+  "options": [
+    "High speed, short distance",
+    "Covers a large geographical area",
+    "Always uses fiber optic cables",
+    "Limited to a single building"
+  ],
+  "answer": 1
+},
+{
+  "id": 23,
+  "question": "What is Netiquette?",
+  "options": [
+    "The physical structure of the Internet",
+    "Rules of acceptable behavior on the Internet",
+    "A network security protocol",
+    "The process of connecting to the Internet"
+  ],
+  "answer": 1
+},
+{
+  "id": 24,
+  "question": "The term used for data transfer capacity of a communication channel is:",
+  "options": [
+    "Latency",
+    "Throughput",
+    "Bandwidth",
+    "Protocol"
+  ],
+  "answer": 2
+},
+{
+  "id": 25,
+  "question": "Which HTML element is used to insert an image into a web page?",
+  "options": [
+    "<picture>",
+    "<img>",
+    "<image>",
+    "<src>"
+  ],
+  "answer": 1
+},
+{
+  "id": 26,
+  "question": "Which TCP/IP protocol provides connectionless communication?",
+  "options": [
+    "TCP",
+    "UDP",
+    "ARP",
+    "ICMP"
+  ],
+  "answer": 1
+},
+{
+  "id": 27,
+  "question": "How many layers are there in the TCP/IP protocol model?",
+  "options": [
+    "7",
+    "5",
+    "4",
+    "3"
+  ],
+  "answer": 2
+},
+{
+  "id": 28,
+  "question": "Which system translates private IP addresses into a public IP address?",
+  "options": [
+    "DHCP",
+    "NAT",
+    "SMTP",
+    "SNMP"
+  ],
+  "answer": 1
+},
+{
+  "id": 29,
+  "question": "What is a key characteristic of a Peer-to-Peer (P2P) network?",
+  "options": [
+    "Uses a central server",
+    "All nodes act as both clients and servers",
+    "Used only for large organizations",
+    "Requires a network administrator"
+  ],
+  "answer": 1
+},
+{
+  "id": 30,
+  "question": "Which addressing scheme is used for email addresses?",
+  "options": [
+    "MAC addressing",
+    "IP addressing",
+    "Internet addressing",
+    "Domain name addressing"
+  ],
+  "answer": 2
+},
+{
+  "id": 31,
+  "question": "Dividing large data into smaller units for transmission is called:",
+  "options": [
+    "Routing",
+    "Packet switching",
+    "Multiplexing",
+    "Bridging"
+  ],
+  "answer": 1
+},
+{
+  "id": 32,
+  "question": "Which cable uses light signals for high-speed data transmission?",
+  "options": [
+    "Coaxial cable",
+    "Twisted-pair cable",
+    "Fiber-optic cable",
+    "Ethernet cable"
+  ],
+  "answer": 2
+},
+{
+  "id": 33,
+  "question": "What does MIME stand for in email systems?",
+  "options": [
+    "Mail Internet Messaging Exchange",
+    "Multi-purpose Internet Mail Extensions",
+    "Message Internal Mail Encoder",
+    "Media Interface Mail Environment"
+  ],
+  "answer": 1
+},
+{
+  "id": 34,
+  "question": "What is the primary function of a web server?",
+  "options": [
+    "Host client-side programs only",
+    "Store and deliver web pages to clients",
+    "Manage user passwords",
+    "Encrypt all network traffic"
+  ],
+  "answer": 1
+},
+{
+  "id": 35,
+  "question": "Which organization develops standards like HTML and CSS?",
+  "options": [
+    "IEEE",
+    "IETF",
+    "W3C",
+    "ISO"
+  ],
+  "answer": 2
+},
+{
+  "id": 36,
+  "question": "The physical arrangement of devices in a network is called:",
+  "options": [
+    "Protocol",
+    "Medium",
+    "Topology",
+    "Standard"
+  ],
+  "answer": 2
+},
+{
+  "id": 37,
+  "question": "Which topology connects all devices to a central hub or switch?",
+  "options": [
+    "Bus",
+    "Ring",
+    "Star",
+    "Mesh"
+  ],
+  "answer": 2
+},
+{
+  "id": 38,
+  "question": "Which protocol is used for remote login to another computer?",
+  "options": [
+    "FTP",
+    "Telnet",
+    "HTTP",
+    "POP3"
+  ],
+  "answer": 1
+},
+{
+  "id": 39,
+  "question": "What is a MAC address?",
+  "options": [
+    "An IP address",
+    "A port number",
+    "A unique hardware address of a network interface",
+    "A domain name"
+  ],
+  "answer": 2
+},
+{
+  "id": 40,
+  "question": "What is the main function of a web browser?",
+  "options": [
+    "Manage email",
+    "Interpret HTML and display web pages",
+    "Host websites",
+    "Translate domain names"
+  ],
+  "answer": 1
+},
+{
+  "id": 41,
+  "question": "Which part of an email contains the sender address, recipient address, and subject?",
+  "options": [
+    "Email body",
+    "Attachment",
+    "Email header",
+    "Signature file"
+  ],
+  "answer": 2
+},
+{
+  "id": 42,
+  "question": "Which Internet application is defined as commerce on the Internet?",
+  "options": [
+    "Video conferencing",
+    "Collaborative computing",
+    "E-commerce",
+    "Web browsing"
+  ],
+  "answer": 2
+},
+{
+  "id": 43,
+  "question": "What does SGML stand for?",
+  "options": [
+    "Standard Graphics Markup Language",
+    "System Gateway Modeling Language",
+    "Structured General Markup Language",
+    "Standard Generalized Markup Language"
+  ],
+  "answer": 3
+},
+{
+  "id": 44,
+  "question": "Outlook Express is an example of:",
+  "options": [
+    "A web server",
+    "A web browser",
+    "A dedicated email client",
+    "A graphic design tool"
+  ],
+  "answer": 2
+},
+{
+  "id": 45,
+  "question": "Which device works at the Data Link layer to improve LAN efficiency?",
+  "options": [
+    "Router",
+    "Hub",
+    "Switch",
+    "Gateway"
+  ],
+  "answer": 2
+},
+{
+  "id": 46,
+  "question": "Dividing a large network into smaller subnetworks is called:",
+  "options": [
+    "Routing",
+    "Bridging",
+    "Subnetting",
+    "Tunneling"
+  ],
+  "answer": 2
+},
+{
+  "id": 47,
+  "question": "Which technology provides a secure encrypted connection over a public network?",
+  "options": [
+    "FTP",
+    "TCP",
+    "VPN",
+    "DHCP"
+  ],
+  "answer": 2
+},
+{
+  "id": 48,
+  "question": "Which HTML element is used to create frames in older HTML standards?",
+  "options": [
+    "<iframe>",
+    "<frameset>",
+    "<frame>",
+    "<div>"
+  ],
+  "answer": 2
+},
+{
+  "id": 49,
+  "question": "What does Web Hosting refer to?",
+  "options": [
+    "Designing a website",
+    "Providing space to publish a website on the Internet",
+    "Registering domain names",
+    "Building server hardware"
+  ],
+  "answer": 1
+},
+{
+  "id": 50,
+  "question": "Receiving data from the Internet to a local computer is called:",
+  "options": [
+    "Uploading",
+    "Browsing",
+    "Downloading",
+    "Streaming"
+  ],
+  "answer": 2
+},
+{
+  "id": 51,
+  "question": "Which email protocol allows messages to remain on the server?",
+  "options": [
+    "POP3",
+    "SMTP",
+    "IMAP4",
+    "FTP"
+  ],
+  "answer": 2
+},
+{
+  "id": 52,
+  "question": "Which cable uses BNC connectors and was common in bus topology?",
+  "options": [
+    "Fiber optic cable",
+    "Twisted pair cable",
+    "Coaxial cable",
+    "Shielded twisted pair"
+  ],
+  "answer": 2
+},
+{
+  "id": 53,
+  "question": "What distinguishes IMAP from POP3?",
+  "options": [
+    "IMAP sends emails",
+    "IMAP allows server-side mail management",
+    "POP3 is obsolete",
+    "IMAP is only for webmail"
+  ],
+  "answer": 1
+},
+{
+  "id": 54,
+  "question": "Which OSI layer handles data encryption and compression?",
+  "options": [
+    "Transport layer",
+    "Network layer",
+    "Presentation layer",
+    "Application layer"
+  ],
+  "answer": 2
+},
+{
+  "id": 55,
+  "question": "What was the purpose of the <frameset> tag?",
+  "options": [
+    "Define tables",
+    "Create scrollable regions",
+    "Link stylesheets",
+    "Define document body"
+  ],
+  "answer": 1
+},
+{
+  "id": 56,
+  "question": "Which device connects dissimilar networks operating at different protocols?",
+  "options": [
+    "Switch",
+    "Hub",
+    "Gateway",
+    "Repeater"
+  ],
+  "answer": 2
+},
+{
+  "id": 57,
+  "question": "What does bandwidth measure?",
+  "options": [
+    "Number of nodes",
+    "Maximum data transfer rate",
+    "Physical distance",
+    "Security level"
+  ],
+  "answer": 1
+},
+{
+  "id": 58,
+  "question": "Which protocol uses port number 80 by default?",
+  "options": [
+    "FTP",
+    "SMTP",
+    "HTTP",
+    "POP3"
+  ],
+  "answer": 2
+},
+{
+  "id": 59,
+  "question": "Which type of media uses radio waves and requires no physical cable?",
+  "options": [
+    "Guided media",
+    "Unguided media",
+    "Coaxial media",
+    "Baseband media"
+  ],
+  "answer": 1
+},
+{
+  "id": 60,
+  "question": "In networking, a node refers to:",
+  "options": [
+    "Only a server",
+    "Any active device on the network",
+    "Central hub",
+    "Routing software"
+  ],
+  "answer": 1
+},
+{
+  "id": 61,
+  "question": "Which activity involves unauthorized access to computer systems or data?",
+  "options": [
+    "Netiquette violation",
+    "Phishing",
+    "Hacking",
+    "E-commerce"
+  ],
+  "answer": 2
+},
+{
+  "id": 62,
+  "question": "Translating a fully qualified domain name into an IP address is called:",
+  "options": [
+    "Routing",
+    "Packet switching",
+    "DNS resolution",
+    "Addressing scheme"
+  ],
+  "answer": 2
+},
+{
+  "id": 63,
+  "question": "What is a major drawback of ring topology?",
+  "options": [
+    "High cost",
+    "Requires central hub",
+    "Failure of one node can disrupt the entire network",
+    "Only supports small networks"
+  ],
+  "answer": 2
+},
+{
+  "id": 64,
+  "question": "Which network was developed by the US Department of Defense and is considered the precursor to the Internet?",
+  "options": [
+    "NSFNET",
+    "WWW",
+    "ARPANET",
+    "INTERNET"
+  ],
+  "answer": 2
+},
+{
+  "id": 65,
+  "question": "Which protocol supports multimedia attachments in email?",
+  "options": [
+    "POP3",
+    "MIME",
+    "SMTP",
+    "IMAP4"
+  ],
+  "answer": 1
+},
+{
+  "id": 66,
+  "question": "What is the purpose of a signature file in email?",
+  "options": [
+    "Encrypt messages",
+    "Automatically append text at the end of an email",
+    "Verify sender identity",
+    "Store email on server"
+  ],
+  "answer": 1
+},
+{
+  "id": 67,
+  "question": "Which HTML element is used to create tables?",
+  "options": [
+    "<list>",
+    "<table>",
+    "<frame>",
+    "<div>"
+  ],
+  "answer": 1
+},
+{
+  "id": 68,
+  "question": "Which connection uses telephone lines with a modem for higher-speed digital transmission?",
+  "options": [
+    "T-1 line",
+    "DSL",
+    "ISDN",
+    "SLIP"
+  ],
+  "answer": 1
+},
+{
+  "id": 69,
+  "question": "Which addressing scheme uses 32-bit dotted decimal numbers?",
+  "options": [
+    "IPv6",
+    "MAC address",
+    "IPv4",
+    "URL"
+  ],
+  "answer": 2
+},
+{
+  "id": 70,
+  "question": "Collaborative computing refers to:",
+  "options": [
+    "Online shopping",
+    "Teamwork using computers across locations",
+    "Web hosting",
+    "Internet speed"
+  ],
+  "answer": 1
+},
+{
+  "id": 71,
+  "question": "What is the main difference between LAN and WAN?",
+  "options": [
+    "Protocol used",
+    "Geographical coverage",
+    "Computer type",
+    "Firewall usage"
+  ],
+  "answer": 1
+},
+{
+  "id": 72,
+  "question": "Document management primarily focuses on:",
+  "options": [
+    "Visual design",
+    "Creating HTML code",
+    "Controlling document storage and retrieval",
+    "Securing web servers"
+  ],
+  "answer": 2
+},
+{
+  "id": 73,
+  "question": "What program indexes web content for search engines?",
+  "options": [
+    "Web host",
+    "Browser",
+    "Web crawler",
+    "FTP client"
+  ],
+  "answer": 2
+},
+{
+  "id": 74,
+  "question": "ATM in networking stands for:",
+  "options": [
+    "Automatic Teller Machine",
+    "Asynchronous Transfer Mode",
+    "Asymmetric Transmission Model",
+    "Analog to Modem"
+  ],
+  "answer": 1
+},
+{
+  "id": 75,
+  "question": "Which HTML tag creates a hyperlink?",
+  "options": [
+    "<link>",
+    "<url>",
+    "<a>",
+    "<href>"
+  ],
+  "answer": 2
+},
+{
+  "id": 76,
+  "question": "What is the function of a repeater?",
+  "options": [
+    "Routing data",
+    "Signal regeneration and amplification",
+    "DNS translation",
+    "Network security"
+  ],
+  "answer": 1
+},
+{
+  "id": 77,
+  "question": "Email content protection using encryption is known as:",
+  "options": [
+    "Email security",
+    "MIME encoding",
+    "POP3 retrieval",
+    "Header filtering"
+  ],
+  "answer": 0
+},
+{
+  "id": 78,
+  "question": "Which connectivity uses dedicated digital telephone lines?",
+  "options": [
+    "ISDN",
+    "Dial-up",
+    "Ethernet",
+    "Wi-Fi"
+  ],
+  "answer": 0
+},
+{
+  "id": 79,
+  "question": "What differentiates an intranet from the Internet?",
+  "options": [
+    "Public vs private access",
+    "Speed difference",
+    "Email availability",
+    "Hosting method"
+  ],
+  "answer": 0
+},
+{
+  "id": 80,
+  "question": "Where is structural information like metadata placed in an HTML document?",
+  "options": [
+    "<body>",
+    "<footer>",
+    "<head>",
+    "<section>"
+  ],
+  "answer": 2
+},
+{
+  "id": 81,
+  "question": "What is the main principle behind packet switching?",
+  "options": [
+    "Dedicated continuous transmission path",
+    "Data broken into packets and reassembled at destination",
+    "Transmission only during off-peak hours",
+    "Mandatory encryption of data"
+  ],
+  "answer": 1
+},
+{
+  "id": 82,
+  "question": "The core function of operating system security in a file system is to:",
+  "options": [
+    "Manage file transfer protocols",
+    "Provide authentication and authorization",
+    "Design web pages",
+    "Compile HTML code"
+  ],
+  "answer": 1
+},
+{
+  "id": 83,
+  "question": "A computer that provides shared services to other computers is called a:",
+  "options": [
+    "Workstation",
+    "Host",
+    "Server",
+    "Node"
+  ],
+  "answer": 2
+},
+{
+  "id": 84,
+  "question": "FDDI stands for:",
+  "options": [
+    "File Data Distribution Interface",
+    "Fiber Distributed Data Interface",
+    "Fast Digital Data Interconnect",
+    "Frame Data Delivery Interface"
+  ],
+  "answer": 1
+},
+{
+  "id": 85,
+  "question": "Which application is an example of Internet video conferencing?",
+  "options": [
+    "Email",
+    "Search engine",
+    "Skype or Zoom",
+    "FTP"
+  ],
+  "answer": 2
+},
+{
+  "id": 86,
+  "question": "Which type of email client is accessed through a web browser?",
+  "options": [
+    "POP3 client",
+    "Web-based email",
+    "Netscape Mail",
+    "Outlook Express"
+  ],
+  "answer": 1
+},
+{
+  "id": 87,
+  "question": "What does a URL primarily represent?",
+  "options": [
+    "Manufacturer of a network card",
+    "Physical location of a server",
+    "Address of a resource on the Web",
+    "Network topology"
+  ],
+  "answer": 2
+},
+{
+  "id": 88,
+  "question": "Which organization develops Internet standards through RFCs?",
+  "options": [
+    "W3C",
+    "ICANN",
+    "IETF",
+    "ISO"
+  ],
+  "answer": 2
+},
+{
+  "id": 89,
+  "question": "Selecting the best path for data across networks is known as:",
+  "options": [
+    "Switching",
+    "Bridging",
+    "Routing",
+    "Tunneling"
+  ],
+  "answer": 2
+},
+{
+  "id": 90,
+  "question": "The primary role of a workstation in a client-server network is to:",
+  "options": [
+    "Manage user accounts",
+    "Host websites",
+    "Run client applications",
+    "Route data packets"
+  ],
+  "answer": 2
+},
+{
+  "id": 91,
+  "question": "Which HTML element is used to embed multimedia like audio or video?",
+  "options": [
+    "<link>",
+    "<frame>",
+    "<video>/<audio>",
+    "<table>"
+  ],
+  "answer": 2
+},
+{
+  "id": 92,
+  "question": "What is the key advantage of star topology over bus topology?",
+  "options": [
+    "Less cabling required",
+    "Single cable failure collapses network",
+    "Easy fault isolation and troubleshooting",
+    "Lower setup cost"
+  ],
+  "answer": 2
+},
+{
+  "id": 93,
+  "question": "Which protocol sends emails between mail servers?",
+  "options": [
+    "POP3",
+    "IMAP4",
+    "SMTP",
+    "DHCP"
+  ],
+  "answer": 2
+},
+{
+  "id": 94,
+  "question": "CGI in web technology is mainly used for:",
+  "options": [
+    "Creating static web pages",
+    "Server-side program interaction",
+    "Designing tables",
+    "Displaying multimedia"
+  ],
+  "answer": 1
+},
+{
+  "id": 95,
+  "question": "Which Internet Protocol uses 128-bit addressing?",
+  "options": [
+    "IPv4",
+    "IPv6",
+    "IPNext",
+    "TCP/IP"
+  ],
+  "answer": 1
+},
+{
+  "id": 96,
+  "question": "What is the purpose of a Network Interface Card (NIC)?",
+  "options": [
+    "Host the operating system",
+    "Connect a computer to a network",
+    "Store permanent data",
+    "Process application data"
+  ],
+  "answer": 1
+},
+{
+  "id": 97,
+  "question": "The principle that all Internet data should be treated equally is called:",
+  "options": [
+    "Protocol stack",
+    "Netiquette",
+    "Net neutrality",
+    "Packet switching"
+  ],
+  "answer": 2
+},
+{
+  "id": 98,
+  "question": "Email header information mainly provides:",
+  "options": [
+    "Message content",
+    "Routing and delivery details",
+    "Password storage",
+    "File compression"
+  ],
+  "answer": 1
+},
+{
+  "id": 99,
+  "question": "Which connection requires dialing a number and uses a modem?",
+  "options": [
+    "ISDN",
+    "Broadband",
+    "Dial-up",
+    "Ethernet"
+  ],
+  "answer": 2
+},
+{
+  "id": 100,
+  "question": "Which HTML attribute specifies the image file path?",
+  "options": [
+    "link",
+    "src",
+    "url",
+    "path"
+  ],
+  "answer": 1
+},
+{
+  "id": 101,
+  "question": "Which HTML tag is used to define the structure of an HTML table?",
+  "options": [
+    "<tr>",
+    "<table>",
+    "<td>",
+    "<th>"
+  ],
+  "answer": 1
+},
+{
+  "id": 102,
+  "question": "What does the <tr> tag stand for in HTML tables?",
+  "options": [
+    "Table Definition",
+    "Table Row",
+    "Table Head",
+    "Table Result"
+  ],
+  "answer": 1
+},
+{
+  "id": 103,
+  "question": "Which attribute is used within the <img> tag to specify the source file path of an image?",
+  "options": [
+    "link",
+    "src",
+    "url",
+    "path"
+  ],
+  "answer": 1
+},
+{
+  "id": 104,
+  "question": "Which HTML tag defines a single data cell in an HTML table?",
+  "options": [
+    "<th>",
+    "<td>",
+    "<tr>",
+    "<table>"
+  ],
+  "answer": 1
+},
+{
+  "id": 105,
+  "question": "Which HTML tag is used to display a self-contained video file on a web page?",
+  "options": [
+    "<media>",
+    "<video>",
+    "<embed>",
+    "<iframe>"
+  ],
+  "answer": 1
+},
+{
+  "id": 106,
+  "question": "What is the purpose of the alt attribute in the <img> tag?",
+  "options": [
+    "To define image alignment",
+    "To provide alternative text if the image cannot be displayed",
+    "To set image dimensions",
+    "To link the image to another page"
+  ],
+  "answer": 1
+},
+{
+  "id": 107,
+  "question": "Which attribute is used to merge two or more columns in an HTML table?",
+  "options": [
+    "colspan",
+    "rowspan",
+    "mergecol",
+    "cellmerge"
+  ],
+  "answer": 0
+},
+{
+  "id": 108,
+  "question": "Which HTML tag defines an inline frame to embed another document?",
+  "options": [
+    "<frame>",
+    "<iframe>",
+    "<embed>",
+    "<object>"
+  ],
+  "answer": 1
+},
+{
+  "id": 109,
+  "question": "Which HTML tag is used to define a heading cell in an HTML table?",
+  "options": [
+    "<td>",
+    "<tr>",
+    "<th>",
+    "<table>"
+  ],
+  "answer": 2
+}
+]
+}

@@ -1,0 +1,1517 @@
+{
+  "module": "Module 1 - Computer Fundamentals",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is considered the brain of the computer?",
+      "options": ["RAM", "CPU", "Hard Disk", "Motherboard"],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "What does RAM stand for?",
+      "options": ["Random Application Module", "Read Access Memory", "Remote Access Mechanism", "Random Access Memory"],
+      "answer": 3
+    },
+    {
+      "id": 3,
+      "question": "Which device converts physical documents into digital form?",
+      "options": ["Printer", "Plotter", "Scanner", "Webcam"],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "question": "Which is a common troubleshooting step for OS software issues?",
+      "options": ["BSOD", "Safe Mode", "POST error codes", "Boot failures"],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "Which Indian Act deals with cyber crimes and digital signatures?",
+      "options": ["Indian Penal Code", "Indian Contract Act", "Indian IT Act", "Copyright Act"],
+      "answer": 2
+    },
+    {
+      "id": 6,
+      "question": "Which is a major trend in Information and Communication Technology?",
+      "options": ["Floppy Disk Drives", "CRT Monitors", "Cloud Computing", "Dot Matrix Printers"],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "question": "What is the primary goal of Information Security?",
+      "options": ["Increase hardware speed", "Ensure confidentiality, integrity, and availability", "Reduce power consumption", "Design new OS"],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a common network attack?",
+      "options": ["File backup", "Password change", "IDS", "Worms and malware"],
+      "answer": 3
+    },
+    {
+      "id": 9,
+      "question": "Which protocol is used to transmit data securely over the web?",
+      "options": ["FTP", "HTTPS", "ICMP", "ARP"],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "What is the purpose of a Backup and Disaster Recovery policy?",
+      "options": ["Install updates", "Ensure business continuity and data recovery", "Increase disk size", "Change passwords"],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "What does SATA stand for?",
+      "options": ["System Advanced Technology Attachment", "Serial Advanced Technology Attachment", "Software Application Technology Access", "Simple Access Terminal Application"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "Which type of memory is volatile?",
+      "options": ["ROM", "PROM", "RAM", "EPROM"],
+      "answer": 2
+    },
+    {
+      "id": 13,
+      "question": "POST is part of which system process?",
+      "options": ["Application installation", "Booting process", "Software troubleshooting", "Network configuration"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "A floppy disk drive is a type of:",
+      "options": ["Primary memory", "Peripheral storage device", "Input device", "Processing unit"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "Which device connects a computer to a telephone line?",
+      "options": ["Scanner", "Monitor", "Modem", "Printer"],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "question": "Which port is commonly used for keyboards, mice, and flash drives?",
+      "options": ["Parallel port", "Serial port", "USB port", "PS/2 port"],
+      "answer": 2
+    },
+    {
+      "id": 17,
+      "question": "Which bus is used for high-speed graphics communication?",
+      "options": ["ISA", "PCI", "AGP", "VESA"],
+      "answer": 2
+    },
+    {
+      "id": 18,
+      "question": "What is the function of BIOS?",
+      "options": ["Run applications", "Store user data", "Initialize and test hardware", "Display OS desktop"],
+      "answer": 2
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is an output device?",
+      "options": ["Keyboard", "Microphone", "Speakers", "Joystick"],
+      "answer": 2
+    },
+    {
+      "id": 20,
+      "question": "What does PATA stand for?",
+      "options": ["Parallel Advanced Technology Attachment", "Peripheral Access Terminal Adapter", "Public Access Telecom Agreement", "Processor Technology Alignment"],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "The intersection of a row and column in a spreadsheet is called:",
+      "options": ["Grid", "Field", "Cell", "Range"],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "question": "A spreadsheet formula must always begin with:",
+      "options": ["#", "@", "=", "$"],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "question": "Which function calculates the average of numbers?",
+      "options": ["SUM", "COUNT", "AVERAGE", "MEDIAN"],
+      "answer": 2
+    },
+    {
+      "id": 24,
+      "question": "What does the formula =SUM(A1:A5) do?",
+      "options": ["Counts cells", "Finds minimum", "Adds values from A1 to A5", "Calculates average"],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "question": "Adjusting column width or row height is called:",
+      "options": ["Cell merging", "Cell formatting", "Cell addressing", "Cell sizing"],
+      "answer": 3
+    }
+  ]
+},
+{
+  "id": 26,
+  "question": "Which type of cell reference changes when copied to another cell?",
+  "options": ["Absolute reference", "Mixed reference", "Relative reference", "Fixed reference"],
+  "answer": 2
+},
+{
+  "id": 27,
+  "question": "Which menu usually contains Sort and Filter options in a spreadsheet?",
+  "options": ["Insert", "Data", "View", "Tools"],
+  "answer": 1
+},
+{
+  "id": 28,
+  "question": "Why are spreadsheets commonly used for small accounting tasks?",
+  "options": ["Sending emails", "Maintaining invoices and budgets", "Creating presentations", "Designing web pages"],
+  "answer": 1
+},
+{
+  "id": 29,
+  "question": "Which function finds the largest number in a range?",
+  "options": ["MIN", "LARGE", "MAX", "COUNT"],
+  "answer": 2
+},
+{
+  "id": 30,
+  "question": "A formula using +, -, *, / is called a:",
+  "options": ["Logical formula", "Mathematical formula", "Statistical formula", "Array formula"],
+  "answer": 1
+},
+{
+  "id": 31,
+  "question": "Entering 10/20 without '=' in a spreadsheet is usually treated as:",
+  "options": ["A formula", "A date", "Text", "An error"],
+  "answer": 1
+},
+{
+  "id": 32,
+  "question": "Default alignment of numbers in spreadsheets is:",
+  "options": ["Left", "Center", "Right", "Justified"],
+  "answer": 2
+},
+{
+  "id": 33,
+  "question": "Where are formulas and data entered for the active cell displayed?",
+  "options": ["Status bar", "Menu bar", "Title bar", "Formula bar"],
+  "answer": 3
+},
+{
+  "id": 34,
+  "question": "A collection of worksheets saved in one file is called a:",
+  "options": ["Workbook", "Document", "Folder", "Database"],
+  "answer": 0
+},
+{
+  "id": 35,
+  "question": "Which operator is used for exponentiation in spreadsheets?",
+  "options": ["*", "^", "%", "&"],
+  "answer": 1
+},
+{
+  "id": 36,
+  "question": "Which software is commonly used for presentations?",
+  "options": ["MS Word", "MS Excel", "MS PowerPoint", "MS Access"],
+  "answer": 2
+},
+{
+  "id": 37,
+  "question": "A presentation is mainly designed to be:",
+  "options": ["Text-heavy", "Linear data", "Visual and slide-based", "Calculation-focused"],
+  "answer": 2
+},
+{
+  "id": 38,
+  "question": "Which view shows all slides as thumbnails?",
+  "options": ["Normal View", "Reading View", "Slide Sorter View", "Outline View"],
+  "answer": 2
+},
+{
+  "id": 39,
+  "question": "A predefined design applied to all slides is called:",
+  "options": ["Slide Master", "Template", "Handout", "Outline"],
+  "answer": 1
+},
+{
+  "id": 40,
+  "question": "Which tool helps create a presentation by asking questions?",
+  "options": ["Slide Sorter", "Presentation Wizard", "Macro Recorder", "Transition Panel"],
+  "answer": 1
+},
+{
+  "id": 41,
+  "question": "Which menu option is used to insert images or charts?",
+  "options": ["Home", "Review", "View", "Insert"],
+  "answer": 3
+},
+{
+  "id": 42,
+  "question": "Arranging text using symbols or dots is called:",
+  "options": ["Text warping", "Bullets and indenting", "Text alignment", "Font manipulation"],
+  "answer": 1
+},
+{
+  "id": 43,
+  "question": "A handout in a presentation is:",
+  "options": ["Opening slide", "Printed slides for audience", "Slide transition", "Design template"],
+  "answer": 1
+},
+{
+  "id": 44,
+  "question": "Which feature controls how slides change during a presentation?",
+  "options": ["Animation", "Transition", "Hyperlink", "Action button"],
+  "answer": 1
+},
+{
+  "id": 45,
+  "question": "Which view shows slide, notes, and next slide preview?",
+  "options": ["Normal View", "Slide Show View", "Presenter View", "Reading View"],
+  "answer": 2
+},
+{
+  "id": 46,
+  "question": "Which option hides a slide but keeps it in the file?",
+  "options": ["Delete Slide", "Hide Slide", "Format Slide", "Save Hidden"],
+  "answer": 1
+},
+{
+  "id": 47,
+  "question": "A title slide is usually the:",
+  "options": ["Last slide", "Summary slide", "First slide", "Detailed slide"],
+  "answer": 2
+},
+{
+  "id": 48,
+  "question": "Adding entrance or exit effects is called:",
+  "options": ["Transition", "Animation", "Morphing", "Timing"],
+  "answer": 1
+},
+{
+  "id": 49,
+  "question": "Best view to rearrange slides quickly:",
+  "options": ["Normal View", "Slide Sorter", "Outline View", "Notes View"],
+  "answer": 1
+},
+{
+  "id": 50,
+  "question": "Full-screen presentation mode is called:",
+  "options": ["Normal Mode", "Slide Sorter Mode", "Slide Show Mode", "Outline Mode"],
+  "answer": 2
+},
+{
+  "id": 51,
+  "question": "What does UPI stand for?",
+  "options": ["Unique Payment Identifier", "Unified Payment Interface", "Universal Protocol Integration", "User Paid Installment"],
+  "answer": 1
+},
+{
+  "id": 52,
+  "question": "AEPS allows transactions using:",
+  "options": ["Card number", "Bank account number", "Biometrics linked to Aadhaar", "OTP"],
+  "answer": 2
+},
+{
+  "id": 53,
+  "question": "Which platform stores documents digitally for verification?",
+  "options": ["BHIM", "DigiLocker", "UPI", "POS"],
+  "answer": 1
+},
+{
+  "id": 54,
+  "question": "BHIM app is based on:",
+  "options": ["NEFT", "RTGS", "UPI", "IMPS"],
+  "answer": 2
+},
+{
+  "id": 55,
+  "question": "Main benefit of Digital Locker:",
+  "options": ["Create documents", "Physical verification", "Reduce physical documents", "International transfer"],
+  "answer": 2
+},
+{
+  "id": 56,
+  "question": "An E-wallet is:",
+  "options": ["Card-based payment", "Prepaid digital account", "Direct bank transfer", "Biometric payment"],
+  "answer": 1
+},
+{
+  "id": 57,
+  "question": "USSD is mainly used for:",
+  "options": ["Internet browsing", "Mobile banking without internet", "Video conferencing", "Business transactions"],
+  "answer": 1
+},
+{
+  "id": 58,
+  "question": "POS stands for:",
+  "options": ["Public Order System", "Point of Sale", "Power On Switch", "Payment Option Service"],
+  "answer": 1
+},
+{
+  "id": 59,
+  "question": "Sharing a document via DigiLocker provides:",
+  "options": ["Physical copy", "Secure document link", "Password", "Printed certificate"],
+  "answer": 1
+},
+{
+  "id": 60,
+  "question": "UPI framework was developed by:",
+  "options": ["RBI", "NPCI", "MeitY", "SBI"],
+  "answer": 1
+},
+{
+  "id": 61,
+  "question": "FSB stands for:",
+  "options": ["File System Block", "Front Side Bus", "Fast Service Backup", "Flash Storage Buffer"],
+  "answer": 1
+},
+{
+  "id": 62,
+  "question": "Which CPU component performs arithmetic and logic operations?",
+  "options": ["Control Unit", "Registers", "ALU", "Cache"],
+  "answer": 2
+},
+{
+  "id": 63,
+  "question": "Beep codes during startup indicate an error in:",
+  "options": ["Application loading", "POST", "Networking", "Installation"],
+  "answer": 1
+},
+{
+  "id": 64,
+  "question": "Which is a system troubleshooting utility?",
+  "options": ["MS Word", "CHKDSK", "Chrome", "Acrobat"],
+  "answer": 1
+},
+{
+  "id": 65,
+  "question": "BSOD is associated with an error in:",
+  "options": ["Application software", "Operating system", "Printer driver", "Browser"],
+  "answer": 1
+},
+{
+  "id": 66,
+  "question": "Running the operating system in Safe Mode helps troubleshooting by:",
+  "options": ["Loading all drivers", "Starting with minimal drivers and services", "Running antivirus automatically", "Increasing CPU speed"],
+  "answer": 1
+},
+{
+  "id": 67,
+  "question": "Which utility is commonly used to fix registry-related issues?",
+  "options": ["Windows Media Player", "Registry repair utilities", "Disk Formatter", "Task Scheduler"],
+  "answer": 1
+},
+{
+  "id": 68,
+  "question": "Which malware inserts its code into other programs to spread?",
+  "options": ["Worm", "Trojan Horse", "Spyware", "Virus"],
+  "answer": 3
+},
+{
+  "id": 69,
+  "question": "What is the main purpose of anti-malware software?",
+  "options": ["Speed up internet", "Protect against malicious software", "Create backups", "Manage files"],
+  "answer": 1
+},
+{
+  "id": 70,
+  "question": "A firewall primarily prevents:",
+  "options": ["Power failure", "Unauthorized network access", "Disk corruption", "Printer errors"],
+  "answer": 1
+},
+{
+  "id": 71,
+  "question": "Using password + fingerprint is known as:",
+  "options": ["Single-factor authentication", "Physical security", "Multi-factor authentication", "Application security"],
+  "answer": 2
+},
+{
+  "id": 72,
+  "question": "Installing latest security fixes is called:",
+  "options": ["System refresh", "Patching and updates", "Data mining", "Overclocking"],
+  "answer": 1
+},
+{
+  "id": 73,
+  "question": "Software secretly monitoring user activity is called:",
+  "options": ["Freeware", "Shareware", "Spyware", "Firmware"],
+  "answer": 2
+},
+{
+  "id": 74,
+  "question": "Which protocol secures browser-server communication?",
+  "options": ["FTP", "HTTPS", "SMTP", "POP3"],
+  "answer": 1
+},
+{
+  "id": 75,
+  "question": "Phishing is best described as:",
+  "options": ["Scanning networks", "Impersonation to steal sensitive data", "Malware installation", "Password cracking"],
+  "answer": 1
+},
+{
+  "id": 76,
+  "question": "Which security practice prevents unauthorized access to documents left on desks?",
+  "options": ["Network security", "Physical security", "Email encryption", "Application security"],
+  "answer": 1
+},
+{
+  "id": 77,
+  "question": "Weak email passwords often lead to:",
+  "options": ["Virus infection", "Header modification", "Account compromise", "Network failure"],
+  "answer": 2
+},
+{
+  "id": 78,
+  "question": "An Intrusion Detection System (IDS) is used to:",
+  "options": ["Stop all attacks", "Monitor network activity", "Encrypt data", "Block websites"],
+  "answer": 1
+},
+{
+  "id": 79,
+  "question": "Business Impact Analysis (BIA) is part of:",
+  "options": ["Routine maintenance", "Disaster recovery planning", "Software testing", "Hardware upgrades"],
+  "answer": 1
+},
+{
+  "id": 80,
+  "question": "Data backup ensures:",
+  "options": ["Faster internet", "Data recovery after loss", "Virus prevention", "Encryption"],
+  "answer": 1
+},
+{
+  "id": 81,
+  "question": "Which is part of a Risk Management Plan?",
+  "options": ["Benchmark testing", "Risk and asset classification", "Installing printers", "Deleting temp files"],
+  "answer": 1
+},
+{
+  "id": 82,
+  "question": "Incident Management Plan defines procedures for:",
+  "options": ["Hiring staff", "Responding to service interruptions", "Coding software", "Creating reports"],
+  "answer": 1
+},
+{
+  "id": 83,
+  "question": "An operating system acts as an interface between:",
+  "options": ["CPU and RAM", "User and hardware", "Application and internet", "Firewall and router"],
+  "answer": 1
+},
+{
+  "id": 84,
+  "question": "Which OS is preferred for servers due to stability and security?",
+  "options": ["MS-DOS", "Linux/UNIX", "Windows 98", "Chrome OS"],
+  "answer": 1
+},
+{
+  "id": 85,
+  "question": "Partitioning and copying system files is part of:",
+  "options": ["Application development", "OS installation", "Web design", "Network cabling"],
+  "answer": 1
+},
+{
+  "id": 86,
+  "question": "A device driver allows:",
+  "options": ["User login", "OS-hardware communication", "Internet browsing", "Calculations"],
+  "answer": 1
+},
+{
+  "id": 87,
+  "question": "Which utility checks file system integrity?",
+  "options": ["Task Manager", "System Restore", "CHKDSK", "Device Manager"],
+  "answer": 2
+},
+{
+  "id": 88,
+  "question": "The Windows Registry stores:",
+  "options": ["Emails", "System configuration settings", "Backups", "Temporary files"],
+  "answer": 1
+},
+{
+  "id": 89,
+  "question": "A corrupt operating system often shows:",
+  "options": ["Screen off", "Frequent crashes or boot failure", "Fast cursor", "Sticky keyboard"],
+  "answer": 1
+},
+{
+  "id": 90,
+  "question": "Linux differs from Windows mainly because Linux is:",
+  "options": ["Server-only", "Open-source", "GUI-less", "Network-less"],
+  "answer": 1
+},
+{
+  "id": 91,
+  "question": "Which attack encrypts data and demands payment?",
+  "options": ["Spyware", "Adware", "Ransomware", "Keylogger"],
+  "answer": 2
+},
+{
+  "id": 92,
+  "question": "Secure systems require:",
+  "options": ["Single user", "No internet", "Authentication and authorization", "Open-source software"],
+  "answer": 2
+},
+{
+  "id": 93,
+  "question": "HTTPS indicates:",
+  "options": ["Fast website", "Encrypted communication", "Free hosting", "Cached data"],
+  "answer": 1
+},
+{
+  "id": 94,
+  "question": "Which protocol sends emails?",
+  "options": ["POP3", "IMAP", "SMTP", "SHTTP"],
+  "answer": 2
+},
+{
+  "id": 95,
+  "question": "PGP provides:",
+  "options": ["Spam filtering", "Encryption and digital signatures", "Email forwarding", "Webmail"],
+  "answer": 1
+},
+{
+  "id": 96,
+  "question": "Email address spoofing is an example of:",
+  "options": ["Phishing", "Hoax", "Email impersonation", "Spamming"],
+  "answer": 2
+},
+{
+  "id": 97,
+  "question": "An email virus spreads by:",
+  "options": ["Changing screen color", "Sending itself to contacts", "Fixing bugs", "Defragmenting disk"],
+  "answer": 1
+},
+{
+  "id": 98,
+  "question": "Main threat of phishing emails is:",
+  "options": ["Ads", "Storage waste", "Stealing sensitive data", "System reboot"],
+  "answer": 2
+},
+{
+  "id": 99,
+  "question": "Biometric authentication uses:",
+  "options": ["Passwords", "PINs", "Biological traits", "Smart cards"],
+  "answer": 2
+},
+{
+  "id": 100,
+  "question": "Verifying website authenticity involves checking:",
+  "options": ["Background color", "HTTPS and SSL certificate", "Image size", "Speed"],
+  "answer": 1
+},
+{
+  "id": 101,
+  "question": "RTO defines:",
+  "options": ["Data loss point", "Time to restore operations", "Risk level", "Backup size"],
+  "answer": 1
+},
+{
+  "id": 102,
+  "question": "A backup policy defines:",
+  "options": ["Break timings", "Internet usage", "Backup rules and frequency", "Hardware cost"],
+  "answer": 2
+},
+{
+  "id": 103,
+  "question": "Disaster Recovery Plan focuses on:",
+  "options": ["Preventing failures", "Restoring operations", "Employee training", "Antivirus updates"],
+  "answer": 1
+},
+{
+  "id": 104,
+  "question": "Business Impact Analysis identifies:",
+  "options": ["Software bugs", "Effects of disruptions", "User habits", "Display issues"],
+  "answer": 1
+},
+{
+  "id": 105,
+  "question": "EXT4 is:",
+  "options": ["Windows file system", "Linux file system", "Mac file system", "Network protocol"],
+  "answer": 1
+},
+{
+  "id": 106,
+  "question": "Which tool is used to manage and configure hardware components connected to the computer?",
+  "options": ["Disk Cleanup", "Device Manager", "Registry Editor", "System Information"],
+  "answer": 1
+},
+{
+  "id": 107,
+  "question": "The process of performing System Restore aims to:",
+  "options": ["Format the hard drive", "Revert system files to a previous state", "Install a new OS", "Update all applications"],
+  "answer": 1
+},
+{
+  "id": 108,
+  "question": "Which OS tool monitors running applications and system performance?",
+  "options": ["Control Panel", "Task Manager", "Calculator", "Paint"],
+  "answer": 1
+},
+{
+  "id": 109,
+  "question": "If a computer cannot find boot files, it is called a:",
+  "options": ["Peripheral failure", "Software bug", "Boot failure", "Power surge"],
+  "answer": 2
+},
+{
+  "id": 110,
+  "question": "MSCONFIG is primarily used to:",
+  "options": ["Manage email", "Control startup programs", "Defragment disk", "Change wallpaper"],
+  "answer": 1
+},
+{
+  "id": 111,
+  "question": "During OS installation, disk organization is done during:",
+  "options": ["Driver installation", "User setup", "Partitioning and formatting", "Network configuration"],
+  "answer": 2
+},
+{
+  "id": 112,
+  "question": "A System Image backup includes:",
+  "options": ["Only user files", "Complete OS and applications", "Only OS files", "Temporary files"],
+  "answer": 1
+},
+{
+  "id": 113,
+  "question": "Peripheral troubleshooting usually starts by checking:",
+  "options": ["CPU speed", "Cable and driver status", "Battery level", "Monitor resolution"],
+  "answer": 1
+},
+{
+  "id": 114,
+  "question": "A symptom of a failing peripheral is:",
+  "options": ["Fast loading", "Device not detected or errors", "High internet speed", "Successful updates"],
+  "answer": 1
+},
+{
+  "id": 115,
+  "question": "Wireless short-range peripheral connectivity uses:",
+  "options": ["Ethernet", "Fiber optic", "Bluetooth", "HDMI"],
+  "answer": 2
+},
+{
+  "id": 116,
+  "question": "Performance issue checks help to:",
+  "options": ["Install games", "Diagnose system slowness", "List software", "Change time"],
+  "answer": 1
+},
+{
+  "id": 117,
+  "question": "POST error codes usually indicate faults in:",
+  "options": ["Network settings", "Core hardware components", "Browser", "Spreadsheet"],
+  "answer": 1
+},
+{
+  "id": 118,
+  "question": "After a faulty driver installation, the quickest fix is:",
+  "options": ["Format disk", "System Restore", "Delete data", "Replace CPU"],
+  "answer": 1
+},
+{
+  "id": 119,
+  "question": "A sudden system stop with error screen is a:",
+  "options": ["System login", "System crash", "Optimization", "Monitoring"],
+  "answer": 1
+},
+{
+  "id": 120,
+  "question": "Extremely slow system performance may require checking:",
+  "options": ["OS deletion", "RAM, disk space, background processes", "Monitor color", "Virus installation"],
+  "answer": 1
+},
+{
+  "id": 121,
+  "question": "High CPU temperature can cause:",
+  "options": ["Faster apps", "System instability or shutdown", "Silent HDD", "Better network"],
+  "answer": 1
+},
+{
+  "id": 122,
+  "question": "File system management is handled by the:",
+  "options": ["Browser", "Operating System", "Printer", "Keyboard"],
+  "answer": 1
+},
+{
+  "id": 123,
+  "question": "Final step after OS installation is:",
+  "options": ["Benchmarking", "Installing applications and user setup", "Deleting setup files", "Shutdown"],
+  "answer": 1
+},
+{
+  "id": 124,
+  "question": "Which utility checks and repairs system files?",
+  "options": ["CMD", "SFC", "PING", "IPCONFIG"],
+  "answer": 1
+},
+{
+  "id": 125,
+  "question": "Preparing a disk for OS use is called:",
+  "options": ["Defragmentation", "Formatting", "Compression", "Encryption"],
+  "answer": 1
+},
+{
+  "id": 126,
+  "question": "The Control Unit (CU) is responsible for:",
+  "options": ["Arithmetic operations", "Temporary storage", "Directing CPU operations", "Display control"],
+  "answer": 2
+},
+{
+  "id": 127,
+  "question": "Startup instructions are stored in:",
+  "options": ["RAM", "Hard disk", "ROM", "Cache"],
+  "answer": 2
+},
+{
+  "id": 128,
+  "question": "Absolute cell references use which symbol?",
+  "options": ["@", "#", "$", "&"],
+  "answer": 2
+},
+{
+  "id": 129,
+  "question": "Which function finds the smallest value?",
+  "options": ["LARGE", "MAX", "MIN", "AVERAGE"],
+  "answer": 2
+},
+{
+  "id": 130,
+  "question": "Slide Master is used to:",
+  "options": ["Record audio", "Apply uniform formatting", "Spell check", "Convert formats"],
+  "answer": 1
+},
+{
+  "id": 131,
+  "question": "Best view for editing text only in presentation:",
+  "options": ["Slide Sorter", "Slide Show", "Outline View", "Notes Page"],
+  "answer": 2
+},
+{
+  "id": 132,
+  "question": "UPI’s major advantage is:",
+  "options": ["No internet needed", "Instant bank-to-bank transfers", "International only", "Card replacement"],
+  "answer": 1
+},
+{
+  "id": 133,
+  "question": "Aadhaar-based biometric payment system is:",
+  "options": ["NEFT", "AEPS", "RTGS", "Credit Card"],
+  "answer": 1
+},
+{
+  "id": 134,
+  "question": "A driver is:",
+  "options": ["Hardware part", "OS-hardware communication software", "Power cable", "Manual"],
+  "answer": 1
+},
+{
+  "id": 135,
+  "question": "‘Operating System Not Found’ usually means:",
+  "options": ["Low battery", "Boot sector or HDD failure", "Keyboard issue", "Slow internet"],
+  "answer": 1
+},
+{
+  "id": 136,
+  "question": "Software that monitors browsing secretly is:",
+  "options": ["Firmware", "Freeware", "Spyware", "Shareware"],
+  "answer": 2
+},
+{
+  "id": 137,
+  "question": "Regular password changes enhance:",
+  "options": ["Performance", "Confidentiality", "Hardware life", "Resolution"],
+  "answer": 1
+},
+{
+  "id": 138,
+  "question": "Email sender identity verification uses:",
+  "options": ["Formatting", "Digital signature", "Attachment", "Alias"],
+  "answer": 1
+},
+{
+  "id": 139,
+  "question": "Web hosting provides:",
+  "options": ["Device connections", "Server space for websites", "IP creation", "File encryption"],
+  "answer": 1
+},
+{
+  "id": 140,
+  "question": "A modem is used for:",
+  "options": ["Display output", "Signal modulation/demodulation", "OS storage", "Printing"],
+  "answer": 1
+},
+{
+  "id": 141,
+  "question": "Short-range wireless peripheral networking uses:",
+  "options": ["Wi-Fi", "Ethernet", "Bluetooth", "Satellite"],
+  "answer": 2
+},
+{
+  "id": 142,
+  "question": "An example of an input device is:",
+  "options": ["Monitor", "Printer", "Keyboard", "Speaker"],
+  "answer": 2
+},
+{
+  "id": 143,
+  "question": "A cell range (A1:C5) means:",
+  "options": ["Single cell", "Rectangular group of cells", "Worksheet name", "Single column"],
+  "answer": 1
+},
+{
+  "id": 144,
+  "question": "Indenting affects:",
+  "options": ["Font color", "Line spacing", "Horizontal text position", "Font size"],
+  "answer": 2
+},
+{
+  "id": 145,
+  "question": "NIC’s primary role is:",
+  "options": ["Power management", "Network connection interface", "Run OS", "Graphics"],
+  "answer": 1
+},
+{
+  "id": 146,
+  "question": "IPv4 addresses use how many bits?",
+  "options": ["8 bits", "16 bits", "32 bits", "128 bits"],
+  "answer": 2
+},
+{
+  "id": 147,
+  "question": "The Boot tab in MSCONFIG is used to:",
+  "options": ["Change themes", "Modify OS startup settings", "Install software", "Format disk"],
+  "answer": 1
+},
+{
+  "id": 148,
+  "question": "A Digital Certificate is commonly used with:",
+  "options": ["System cleanup", "Digital signatures", "Hardware setup", "Spreadsheet work"],
+  "answer": 1
+},
+{
+  "id": 149,
+  "question": "BYOD (Bring Your Own Device) mainly relates to:",
+  "options": ["Physical security", "Workplace security policy", "Printer maintenance", "Spreadsheets"],
+  "answer": 1
+},
+{
+  "id": 150,
+  "question": "Unauthorized access to a system is known as:",
+  "options": ["Data entry", "Hacking", "Backup", "Formatting"],
+  "answer": 1
+},
+{
+  "id": 151,
+  "question": "Which function counts numeric cells in a range?",
+  "options": ["COUNTIF", "COUNT", "COUNTA", "SUM"],
+  "answer": 1
+},
+{
+  "id": 152,
+  "question": "Setting a slide loop means:",
+  "options": ["Slides print repeatedly", "Presentation restarts automatically", "Slides delete", "Transitions slow"],
+  "answer": 1
+},
+{
+  "id": 153,
+  "question": "AEPS is managed by:",
+  "options": ["World Bank", "NPCI", "Ministry of Finance", "RBI"],
+  "answer": 1
+},
+{
+  "id": 154,
+  "question": "Which device uses spinning magnetic platters?",
+  "options": ["RAM", "SSD", "HDD", "Cache"],
+  "answer": 2
+},
+{
+  "id": 155,
+  "question": "A protocol is:",
+  "options": ["Hardware", "Communication rules", "Application software", "Storage"],
+  "answer": 1
+},
+{
+  "id": 156,
+  "question": "Device Controls in mobile OS allow users to:",
+  "options": ["Run diagnostics", "Control apps and settings", "Manage email", "Create spreadsheets"],
+  "answer": 1
+},
+{
+  "id": 157,
+  "question": "USSD is mainly used for:",
+  "options": ["Broadband internet", "Mobile banking without internet", "Satellite TV", "Fiber optics"],
+  "answer": 1
+},
+{
+  "id": 158,
+  "question": "A System Security Policy should be reviewed:",
+  "options": ["Once only", "Regularly", "After attacks only", "Yearly only"],
+  "answer": 1
+},
+{
+  "id": 159,
+  "question": "A key technology for E-commerce is:",
+  "options": ["TCP/IP and HTTP", "Parallel port", "Floppy disks", "Dial-up"],
+  "answer": 0
+},
+{
+  "id": 160,
+  "question": "Using an E-Wallet is a:",
+  "options": ["Cash transaction", "Prepaid digital transaction", "Biometric payment", "Cheque"],
+  "answer": 1
+},
+{
+  "id": 161,
+  "question": "A Web Browser is used to:",
+  "options": ["Create presentations", "View web pages", "Manage drivers", "Store data"],
+  "answer": 1
+},
+{
+  "id": 162,
+  "question": "Cell inputting in a spreadsheet means:",
+  "options": ["Printing data", "Entering data or formulas", "Changing color", "Merging cells"],
+  "answer": 1
+},
+{
+  "id": 163,
+  "question": "Presentation aesthetics mainly involve:",
+  "options": ["Calculations", "Slide movement", "Design and color selection", "Peripheral checks"],
+  "answer": 2
+},
+{
+  "id": 164,
+  "question": "Indian IT Act gives legal validity to:",
+  "options": ["Hard copies", "Digital signatures", "Biometric scans", "Paper documents"],
+  "answer": 1
+},
+{
+  "id": 165,
+  "question": "UPS is used to:",
+  "options": ["Increase CPU speed", "Provide backup power", "Connect internet", "Cool processor"],
+  "answer": 1
+},
+{
+  "id": 166,
+  "question": "PATA stands for:",
+  "options": ["Parallel Advanced Technology Attachment", "Public Access Adapter", "Primary App Access", "Peripheral Audio Transfer"],
+  "answer": 0
+},
+{
+  "id": 167,
+  "question": "Which CIA principle ensures data is accessible?",
+  "options": ["Confidentiality", "Integrity", "Availability", "Privacy"],
+  "answer": 2
+},
+{
+  "id": 168,
+  "question": "A boot sector failure usually results in:",
+  "options": ["Normal startup", "OS not loading", "Mouse failure", "Printer error"],
+  "answer": 1
+},
+{
+  "id": 169,
+  "question": "Which utility allows reverting to a stable OS state?",
+  "options": ["Disk Cleanup", "System Restore", "Explorer", "Calculator"],
+  "answer": 1
+},
+{
+  "id": 170,
+  "question": "Cyber Warfare belongs to:",
+  "options": ["Spreadsheets", "Internet security", "Presentations", "Peripherals"],
+  "answer": 1
+},
+{
+  "id": 171,
+  "question": "A Trojan Horse differs because it:",
+  "options": ["Attacks peripherals", "Appears legitimate but is malicious", "Only emails", "Targets Linux only"],
+  "answer": 1
+},
+{
+  "id": 172,
+  "question": "The basic unit stored in DigiLocker is:",
+  "options": ["Sheet", "File/document", "Formula", "Slide"],
+  "answer": 1
+},
+{
+  "id": 173,
+  "question": "Slide Manager helps to:",
+  "options": ["Auto design", "Organize slides efficiently", "Check grammar", "Manage internet"],
+  "answer": 1
+},
+{
+  "id": 174,
+  "question": "SUM function arguments are:",
+  "options": ["Operators", "Cells or ranges", "Text only", "Logical values"],
+  "answer": 1
+},
+{
+  "id": 175,
+  "question": "A browser communicates with server using:",
+  "options": ["FTP", "HTTP", "SMTP", "POP3"],
+  "answer": 1
+},
+{
+  "id": 176,
+  "question": "CPU instruction execution is handled by:",
+  "options": ["ALU", "RAM", "Control Unit", "Hard Disk"],
+  "answer": 2
+},
+{
+  "id": 177,
+  "question": "Fastest memory on CPU chip is:",
+  "options": ["RAM", "Cache", "Virtual Memory", "VRAM"],
+  "answer": 1
+},
+{
+  "id": 178,
+  "question": "Modern graphics cards connect via:",
+  "options": ["ISA", "PCI", "PCIe", "AGP"],
+  "answer": 2
+},
+{
+  "id": 179,
+  "question": "No display on startup often indicates failure of:",
+  "options": ["Modem", "RAM or graphics card", "Printer", "Keyboard"],
+  "answer": 1
+},
+{
+  "id": 180,
+  "question": "Startup services can be managed using:",
+  "options": ["Disk Cleanup", "MSCONFIG", "CHKDSK", "Registry Editor"],
+  "answer": 1
+},
+{
+  "id": 181,
+  "question": "Defragmentation improves HDD by:",
+  "options": ["Compressing files", "Reorganizing file fragments", "Boosting CPU", "Virus scanning"],
+  "answer": 1
+},
+{
+  "id": 182,
+  "question": "IF, AND, OR functions belong to:",
+  "options": ["Mathematical", "Text", "Logical", "Statistical"],
+  "answer": 2
+},
+{
+  "id": 183,
+  "question": "SUMIF is used to:",
+  "options": ["Add all values", "Add values meeting criteria", "Count cells", "Search tables"],
+  "answer": 1
+},
+{
+  "id": 184,
+  "question": "Relative cell references will:",
+  "options": ["Remain fixed", "Adjust when copied", "Cause error", "Convert automatically"],
+  "answer": 1
+},
+{
+  "id": 185,
+  "question": "Presentation files commonly use extension:",
+  "options": [".doc", ".xlsx", ".ppt/.pptx", ".html"],
+  "answer": 2
+},
+{
+  "id": 186,
+  "question": "Which unit of the CPU performs arithmetic and logical operations?",
+  "options": ["Control Unit", "Registers", "Arithmetic Logic Unit", "Cache Memory"],
+  "answer": 2
+},
+{
+  "id": 187,
+  "question": "Which memory is volatile in nature?",
+  "options": ["ROM", "RAM", "Hard Disk", "SSD"],
+  "answer": 1
+},
+{
+  "id": 188,
+  "question": "Which device is used to convert digital signals into analog signals for transmission?",
+  "options": ["Router", "Switch", "Modem", "Hub"],
+  "answer": 2
+},
+{
+  "id": 189,
+  "question": "Which port is most commonly used today for connecting peripherals?",
+  "options": ["Serial Port", "Parallel Port", "USB Port", "PS/2 Port"],
+  "answer": 2
+},
+{
+  "id": 190,
+  "question": "Which spreadsheet function is used to calculate the average of values?",
+  "options": ["SUM", "COUNT", "AVERAGE", "MAX"],
+  "answer": 2
+},
+{
+  "id": 191,
+  "question": "Which view shows slides in miniature form for easy rearrangement?",
+  "options": ["Normal View", "Slide Show View", "Slide Sorter View", "Outline View"],
+  "answer": 2
+},
+{
+  "id": 192,
+  "question": "Which digital payment system allows transactions using biometrics?",
+  "options": ["UPI", "AEPS", "NEFT", "RTGS"],
+  "answer": 1
+},
+{
+  "id": 193,
+  "question": "Which malware disguises itself as legitimate software?",
+  "options": ["Virus", "Worm", "Trojan Horse", "Spyware"],
+  "answer": 2
+},
+{
+  "id": 194,
+  "question": "Which security concept ensures data is not altered without authorization?",
+  "options": ["Confidentiality", "Integrity", "Availability", "Authentication"],
+  "answer": 1
+},
+{
+  "id": 195,
+  "question": "Which utility checks and repairs file system errors in Windows?",
+  "options": ["MSCONFIG", "CHKDSK", "SFC", "DISKPART"],
+  "answer": 1
+},
+{
+  "id": 196,
+  "question": "Which protocol is used to securely access web pages?",
+  "options": ["FTP", "HTTP", "HTTPS", "SMTP"],
+  "answer": 2
+},
+{
+  "id": 197,
+  "question": "Which device provides backup power during an electricity outage?",
+  "options": ["SMPS", "UPS", "Stabilizer", "Router"],
+  "answer": 1
+},
+{
+  "id": 198,
+  "question": "Which type of software controls the overall operation of a computer?",
+  "options": ["Application Software", "Utility Software", "System Software", "Firmware"],
+  "answer": 2
+},
+{
+  "id": 199,
+  "question": "Which spreadsheet operator is used for multiplication?",
+  "options": ["+", "-", "*", "/"],
+  "answer": 2
+},
+{
+  "id": 200,
+  "question": "Which feature allows a presentation to restart automatically after the last slide?",
+  "options": ["Animation", "Slide Timing", "Loop Slide Show", "Transition"],
+  "answer": 2
+},
+{
+  "id": 201,
+  "question": "Which type of attack attempts to guess passwords repeatedly?",
+  "options": ["Phishing", "Brute Force Attack", "Spoofing", "DoS Attack"],
+  "answer": 1
+},
+{
+  "id": 202,
+  "question": "Which memory stores frequently accessed instructions for faster CPU processing?",
+  "options": ["RAM", "ROM", "Cache Memory", "Virtual Memory"],
+  "answer": 2
+},
+{
+  "id": 203,
+  "question": "Which view in presentation software is best for editing text only?",
+  "options": ["Slide Sorter", "Outline View", "Slide Show", "Notes View"],
+  "answer": 1
+},
+{
+  "id": 204,
+  "question": "Which command is used in spreadsheets to find the maximum value?",
+  "options": ["MIN", "MAX", "COUNT", "AVERAGE"],
+  "answer": 1
+},
+{
+  "id": 205,
+  "question": "Which security measure verifies user identity before granting access?",
+  "options": ["Authorization", "Authentication", "Encryption", "Auditing"],
+  "answer": 1
+},
+{
+  "id": 206,
+  "question": "What is the primary difference between Transition and Animation in a presentation?",
+  "options": [
+    "Transition affects text; Animation affects the whole slide",
+    "Transition affects the whole slide change; Animation affects elements on a slide",
+    "They are the same thing",
+    "Transition is for printing; Animation is for viewing"
+  ],
+  "answer": 1
+},
+{
+  "id": 207,
+  "question": "Which protocol is often used for transferring files between a client and a server over a network?",
+  "options": ["HTTP", "FTP (File Transfer Protocol)", "SMTP", "DHCP"],
+  "answer": 1
+},
+{
+  "id": 208,
+  "question": "The Internet Layer in TCP/IP is primarily responsible for which functions?",
+  "options": [
+    "Formatting and Printing",
+    "Error Correction and Flow Control",
+    "Logical Addressing (IP) and Routing",
+    "Application Interface and User Login"
+  ],
+  "answer": 2
+},
+{
+  "id": 209,
+  "question": "Which device retransmits data packets to all connected devices regardless of destination?",
+  "options": ["Router", "Switch", "Hub", "Gateway"],
+  "answer": 2
+},
+{
+  "id": 210,
+  "question": "What is the process of converting an analog telephone signal into a digital signal?",
+  "options": ["Demodulation", "Modulation", "Encryption", "Debugging"],
+  "answer": 1
+},
+{
+  "id": 211,
+  "question": "Which cyber attack overwhelms a server using traffic from multiple compromised systems?",
+  "options": ["Phishing", "Spoofing", "DDoS (Distributed Denial of Service)", "Trojan"],
+  "answer": 2
+},
+{
+  "id": 212,
+  "question": "Legal recognition of digital signatures in India is covered under which law?",
+  "options": [
+    "Cyber Crime Act",
+    "Indian Contract Act",
+    "Information Technology (IT) Act, 2000",
+    "Telecom Act"
+  ],
+  "answer": 2
+},
+{
+  "id": 213,
+  "question": "The principle of Integrity in information security ensures that data is:",
+  "options": [
+    "Only accessed by authorized users",
+    "Accurate, complete, and consistent",
+    "Always available",
+    "Encrypted during transit"
+  ],
+  "answer": 1
+},
+{
+  "id": 214,
+  "question": "What is the purpose of a Vulnerability Assessment?",
+  "options": [
+    "To install new software",
+    "To identify security weaknesses and potential flaws",
+    "To check computer speed",
+    "To print reports"
+  ],
+  "answer": 1
+},
+{
+  "id": 215,
+  "question": "Where do deleted emails usually go before permanent deletion?",
+  "options": [
+    "Sent Items",
+    "Drafts",
+    "Spam/Junk",
+    "Trash/Deleted Items"
+  ],
+  "answer": 3
+},
+{
+  "id": 216,
+  "question": "What is a key characteristic of open-source software like Linux?",
+  "options": [
+    "Always free of cost",
+    "Source code is freely available and modifiable",
+    "Only for servers",
+    "Only works on Apple hardware"
+  ],
+  "answer": 1
+},
+{
+  "id": 217,
+  "question": "Which Windows component stores configuration settings and hardware information?",
+  "options": ["System Log", "Registry", "Device Manager", "Task Scheduler"],
+  "answer": 1
+},
+{
+  "id": 218,
+  "question": "Creating a full bootable copy of a hard drive is called:",
+  "options": [
+    "File Copying",
+    "Disk Imaging or Cloning",
+    "Data Archiving",
+    "File Merging"
+  ],
+  "answer": 1
+},
+{
+  "id": 219,
+  "question": "What should be done if newly installed software causes system instability?",
+  "options": [
+    "Reinstall the OS",
+    "Uninstall the software or use System Restore",
+    "Buy new hardware",
+    "Change network settings"
+  ],
+  "answer": 1
+},
+{
+  "id": 220,
+  "question": "What is a CRM system?",
+  "options": [
+    "Computer repair tool",
+    "Customer relationship management software",
+    "Network cable",
+    "Security protocol"
+  ],
+  "answer": 1
+},
+{
+  "id": 221,
+  "question": "Which term refers to business transactions between companies?",
+  "options": ["C2C", "B2C", "B2B", "C2G"],
+  "answer": 2
+},
+{
+  "id": 222,
+  "question": "Digital India aims to:",
+  "options": [
+    "Increase electronics prices",
+    "Transform India into a digitally empowered society",
+    "Only manufacture hardware",
+    "Reduce digital device usage"
+  ],
+  "answer": 1
+},
+{
+  "id": 223,
+  "question": "BHIM app transactions are mainly initiated using:",
+  "options": [
+    "Swipe card",
+    "VPA or QR code",
+    "Paper cheque",
+    "Bank visit"
+  ],
+  "answer": 1
+},
+{
+  "id": 224,
+  "question": "Digital Locker is based on which model?",
+  "options": [
+    "Centralized physical storage",
+    "Paper-based storage",
+    "Secure cloud-based document storage",
+    "Local hard drive storage"
+  ],
+  "answer": 2
+},
+{
+  "id": 225,
+  "question": "Which part of a URL specifies the protocol?",
+  "options": ["Host name", "Scheme/Protocol", "Path", "Port number"],
+  "answer": 1
+},
+{
+  "id": 226,
+  "question": "What is the main characteristic of a WAN?",
+  "options": [
+    "Covers one room",
+    "Covers large geographical areas",
+    "Uses Bluetooth only",
+    "Connects only printers"
+  ],
+  "answer": 1
+},
+{
+  "id": 227,
+  "question": "Which address is fixed to a NIC by the manufacturer?",
+  "options": ["IP Address", "Port Number", "MAC Address", "URL"],
+  "answer": 2
+},
+{
+  "id": 228,
+  "question": "What is the main risk of phishing emails with attachments?",
+  "options": [
+    "Large file size",
+    "Malicious files like viruses or trojans",
+    "Too much text",
+    "Presentation format"
+  ],
+  "answer": 1
+},
+{
+  "id": 229,
+  "question": "Which security protects against floods or fire?",
+  "options": [
+    "Application Security",
+    "Network Security",
+    "Physical and Environmental Security",
+    "Encryption"
+  ],
+  "answer": 2
+},
+{
+  "id": 230,
+  "question": "Setting system date/time in BIOS is called:",
+  "options": ["Overclocking", "System Setup", "Backup", "OS Installation"],
+  "answer": 1
+},
+{
+  "id": 231,
+  "question": "Power failure during disk writing can cause:",
+  "options": [
+    "Faster boot",
+    "Data corruption",
+    "Better graphics",
+    "Easy updates"
+  ],
+  "answer": 1
+},
+{
+  "id": 232,
+  "question": "Labels identifying x and y axes in charts are called:",
+  "options": ["Cells", "Data Markers", "Axes Labels", "Grid Lines"],
+  "answer": 2
+},
+{
+  "id": 233,
+  "question": "Which feature sets automatic slide timing?",
+  "options": [
+    "Manual Advance",
+    "Rehearse Timings",
+    "Slide Show Setup",
+    "Custom Animation"
+  ],
+  "answer": 1
+},
+{
+  "id": 234,
+  "question": "In E-Governance, G2C stands for:",
+  "options": [
+    "Government-to-Commercial",
+    "Government-to-Citizen",
+    "Global-to-Client",
+    "General-to-Consultant"
+  ],
+  "answer": 1
+},
+{
+  "id": 235,
+  "question": "What is the function of IPv6?",
+  "options": [
+    "Provide 128-bit addressing",
+    "Reduce IP addresses",
+    "Connect USB devices",
+    "Speed up hard disks"
+  ],
+  "answer": 0
+}
+]
+}
