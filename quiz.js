@@ -14,7 +14,7 @@ if (!moduleName) {
 
 quizTitle.textContent = moduleName.replace("module", "Module ");
 
-fetch(`${moduleName}.json`)
+fetch(`./${moduleName}.json`)
   .then(res => {
     if (!res.ok) throw new Error("JSON not found");
     return res.json();
