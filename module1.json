@@ -148,9 +148,7 @@
       "id": 25,
       "question": "Adjusting column width or row height is called:",
       "options": ["Cell merging", "Cell formatting", "Cell addressing", "Cell sizing"],
-      "answer": 3
-    }
-  ]
+      "answer": 2
 },
 {
   "id": 26,
