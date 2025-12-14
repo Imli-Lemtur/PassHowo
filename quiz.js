@@ -12,6 +12,7 @@ if (!moduleName) {
   throw new Error("No module specified");
 }
 
+// Header title
 quizTitle.textContent = moduleName.replace("module", "Module ");
 
 fetch(`./${moduleName}.json`)
@@ -19,11 +20,11 @@ fetch(`./${moduleName}.json`)
     if (!res.ok) throw new Error("JSON not found");
     return res.json();
   })
-.then(data => {
-  console.log("Loaded JSON:", data);   // 👈 debug line
-  allQuestions = data.questions;
-  render(allQuestions);
-})
+  .then(data => {
+    console.log("Loaded JSON:", data);
+    allQuestions = data.questions;
+    render(allQuestions);
+  })
   .catch(err => {
     quizContainer.innerHTML = "<p>Error loading questions.</p>";
     console.error(err);
@@ -33,21 +34,23 @@ function render(questions) {
   quizContainer.innerHTML = "";
   wrongQuestions = [];
 
-  questions.forEach((q, index) => {
+  questions.forEach((q, qIndex) => {
     const card = document.createElement("div");
     card.className = "question-card";
 
     let optionsHTML = "";
-    q.options.forEach(opt => {
+
+    q.options.forEach((opt, optIndex) => {
       optionsHTML += `
         <button class="option-btn"
-          onclick="checkAnswer(this, '${q.answer}', ${index})">
+          onclick="checkAnswer(this, ${optIndex}, ${q.answer}, ${qIndex})">
           ${opt}
-        </button>`;
+        </button>
+      `;
     });
 
     card.innerHTML = `
-      <span class="q-no">Question ${index + 1}</span>
+      <span class="q-no">Question ${qIndex + 1}</span>
       <h3>${q.question}</h3>
       <div class="options">${optionsHTML}</div>
     `;
@@ -56,20 +59,18 @@ function render(questions) {
   });
 }
 
-window.checkAnswer = function (btn, answer, qIndex) {
+window.checkAnswer = function (btn, selectedIndex, correctIndex, qIndex) {
   const buttons = btn.parentElement.querySelectorAll("button");
+
   buttons.forEach(b => b.disabled = true);
 
-  if (btn.textContent.trim() === answer.trim()) {
+  if (selectedIndex === correctIndex) {
     btn.classList.add("correct");
   } else {
     btn.classList.add("wrong");
     wrongQuestions.push(allQuestions[qIndex]);
-    buttons.forEach(b => {
-      if (b.textContent.trim() === answer.trim()) {
-        b.classList.add("correct");
-      }
-    });
+
+    buttons[correctIndex].classList.add("correct");
   }
 };
 
