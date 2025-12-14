@@ -39,7 +39,7 @@ function render(questions) {
   wrongQuestions = [];
 answeredCount = 0;
 totalQuestions = questions.length;
-updateProgress();
+
   questions.forEach((q, index) => {
     const card = document.createElement("div");
     card.className = "question-card";
@@ -71,8 +71,7 @@ window.checkAnswer = function (btn, correctIndex, clickedIndex, qIndex) {
   const resultText = card.querySelector(".result-text");
 
   buttons.forEach(b => (b.disabled = true));
-  answeredCount++;
-  updateProgress();
+  
   if (clickedIndex === correctIndex) {
     btn.classList.add("correct");
     resultText.textContent = "✅ Correct";
