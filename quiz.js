@@ -12,17 +12,14 @@ if (!moduleName) {
   throw new Error("No module specified");
 }
 
-// Header title
 quizTitle.textContent = moduleName.replace("module", "Module ");
 
-// Load JSON
 fetch(`./${moduleName}.json`)
   .then(res => {
     if (!res.ok) throw new Error("JSON not found");
     return res.json();
   })
   .then(data => {
-    console.log("Loaded JSON:", data);
     allQuestions = data.questions;
     render(allQuestions);
   })
@@ -35,22 +32,21 @@ function render(questions) {
   quizContainer.innerHTML = "";
   wrongQuestions = [];
 
-  questions.forEach((q, qIndex) => {
+  questions.forEach((q, index) => {
     const card = document.createElement("div");
     card.className = "question-card";
 
     let optionsHTML = "";
-
-    q.options.forEach((opt, optIndex) => {
+    q.options.forEach((opt, i) => {
       optionsHTML += `
         <button class="option-btn"
-          onclick="checkAnswer(this, ${q.answer - 1}, ${optIndex}, ${qIndex})">
+          onclick="checkAnswer(this, ${q.answer}, ${i}, ${index})">
           ${opt}
         </button>`;
     });
 
     card.innerHTML = `
-      <span class="q-no">Question ${qIndex + 1}</span>
+      <span class="q-no">Question ${index + 1}</span>
       <h3>${q.question}</h3>
       <div class="options">${optionsHTML}</div>
       <p class="feedback"></p>
@@ -61,20 +57,23 @@ function render(questions) {
 }
 
 window.checkAnswer = function (btn, correctIndex, clickedIndex, qIndex) {
-  const options = btn.parentElement.querySelectorAll(".option-btn");
-  const feedback = btn.closest(".question-card").querySelector(".feedback");
+  const card = btn.closest(".question-card");
+  const buttons = card.querySelectorAll("button");
+  const feedback = card.querySelector(".feedback");
 
-  options.forEach(b => b.disabled = true);
+  buttons.forEach(b => b.disabled = true);
 
-  if (clickedIndex === correctIndex) {
+  // Convert 1-based → 0-based
+  const correct = correctIndex - 1;
+
+  if (clickedIndex === correct) {
     btn.classList.add("correct");
     feedback.textContent = "✅ Correct";
-    feedback.className = "feedback correct-text";
   } else {
     btn.classList.add("wrong");
-    options[correctIndex].classList.add("correct");
     feedback.textContent = "❌ Wrong";
-    feedback.className = "feedback wrong-text";
+
+    buttons[correct].classList.add("correct");
     wrongQuestions.push(allQuestions[qIndex]);
   }
 };
