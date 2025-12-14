@@ -1,0 +1,269 @@
+{
+  "module": "Miscellany",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the full form of DOCX?",
+      "options": [
+        "Digital Open Code XML",
+        "Document XML",
+        "Data Object Code eXchange",
+        "Document Standard eXtreme"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "What is the full form of XLSX?",
+      "options": [
+        "Extended Logic Sheet X",
+        "Excel Sheet XML",
+        "Extra Large Storage Xchange",
+        "eXtreme Linear Standard"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the full form of VBA in MS Office?",
+      "options": [
+        "Visual Basic Applications",
+        "Virtual Block Access",
+        "Value Based Algorithm",
+        "Vector Byte Assembly"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the full form of PDF?",
+      "options": [
+        "Print Data File",
+        "Primary Document Format",
+        "Portable Document Format",
+        "Personal Data File"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the full form of WYSIWYG?",
+      "options": [
+        "What You See Is What You Get",
+        "While You See It, We Yield Graphics",
+        "Web Yellow Sheet Interface Window Generation",
+        "Write Your Standard Information System, Why Generate?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "question": "What does CSV stand for?",
+      "options": [
+        "Code Scripting Value",
+        "Current Style Viewer",
+        "Comma Separated Values",
+        "Custom Shared Volume"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 7,
+      "question": "What is the full form of RTF?",
+      "options": [
+        "Run Time File",
+        "Rich Text Format",
+        "Restricted Tag File",
+        "Raw Text Form"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the full form of CPU?",
+      "options": [
+        "Central Program Utility",
+        "Control Processing Unit",
+        "Core Performance Unit",
+        "Central Processing Unit"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 9,
+      "question": "What is the full form of RAM?",
+      "options": [
+        "Read-Only Access Memory",
+        "Random Access Machine",
+        "Random Access Memory",
+        "Resource Allocation Module"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "question": "What does IP stand for in networking?",
+      "options": [
+        "Internal Protocol",
+        "Internet Proxy",
+        "Information Provider",
+        "Internet Protocol"
+      ],
+      "answer": 3
+    },
+
+    {
+      "id": 11,
+      "question": "Which shortcut key is used to Bold text in MS Word?",
+      "options": ["Ctrl + I", "Ctrl + B", "Ctrl + U", "Ctrl + A"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "Which shortcut key is used to Italicize text?",
+      "options": ["Ctrl + I", "Ctrl + T", "Ctrl + J", "Ctrl + Z"],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "Which shortcut opens Find in MS Word?",
+      "options": ["Ctrl + H", "Ctrl + F", "Ctrl + G", "Ctrl + R"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "Shortcut for Undo is:",
+      "options": ["Ctrl + X", "Ctrl + R", "Ctrl + Y", "Ctrl + Z"],
+      "answer": 3
+    },
+    {
+      "id": 15,
+      "question": "Shortcut for Redo is:",
+      "options": ["Ctrl + Y", "Ctrl + Z", "Ctrl + U", "Ctrl + R"],
+      "answer": 0
+    },
+
+    {
+      "id": 16,
+      "question": "To center align text in MS Word:",
+      "options": ["Ctrl + J", "Ctrl + L", "Ctrl + E", "Ctrl + C"],
+      "answer": 2
+    },
+    {
+      "id": 17,
+      "question": "Which function key checks spelling?",
+      "options": ["F5", "F7", "F9", "F12"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "Print dialog shortcut:",
+      "options": ["Ctrl + S", "Ctrl + P", "Ctrl + O", "Ctrl + W"],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "Shortcut to Select All:",
+      "options": ["Ctrl + S", "Ctrl + A", "Ctrl + Shift + A", "Ctrl + E"],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "Go To dialog shortcut:",
+      "options": ["Ctrl + G", "Ctrl + H", "Ctrl + K", "Ctrl + J"],
+      "answer": 0
+    },
+
+    {
+      "id": 21,
+      "question": "Insert new worksheet in Excel:",
+      "options": ["Ctrl + N", "Alt + F1", "Shift + F11", "Ctrl + Shift + W"],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "question": "Insert current date in Excel:",
+      "options": [
+        "Ctrl + Shift + D",
+        "Ctrl + Alt + D",
+        "Ctrl + ;",
+        "Ctrl + D"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "question": "Insert current time in Excel:",
+      "options": ["Ctrl + :", "Ctrl + Shift + T", "Ctrl + T", "Ctrl + Alt + T"],
+      "answer": 0
+    },
+    {
+      "id": 24,
+      "question": "Edit mode shortcut in Excel:",
+      "options": ["F1", "F2", "F4", "F5"],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "Format Cells dialog shortcut:",
+      "options": ["Ctrl + F", "Ctrl + Alt + F", "Ctrl + 1", "Ctrl + Shift + C"],
+      "answer": 2
+    },
+
+    {
+      "id": 26,
+      "question": "What does DBMS stand for?",
+      "options": [
+        "Database Backup System",
+        "Digital Byte Management System",
+        "Data Based Management System",
+        "Database Management System"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 27,
+      "question": "Full form of SQL:",
+      "options": [
+        "Simple Query Logic",
+        "Structured Query Language",
+        "Standard Question Link",
+        "Sequential Query Language"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 28,
+      "question": "Full form of HTML:",
+      "options": [
+        "Hyperlink and Text Markup Language",
+        "HyperText Markup Language",
+        "Home Tool Management Logic",
+        "High-Level Text Modeling Language"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "Full form of CSS:",
+      "options": [
+        "Computer Style System",
+        "Cascading Style Sheets",
+        "Creative Software Style",
+        "Content Sheet System"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "question": "Full form of HTTP:",
+      "options": [
+        "Host Transfer Protocol",
+        "High Text Transmission Program",
+        "Hyperlink Tag Transfer Program",
+        "Hypertext Transfer Protocol"
+      ],
+      "answer": 3
+    }
+  ]
+}
