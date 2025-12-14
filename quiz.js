@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const moduleNo = params.get("module");
+const moduleKey = params.get("module"); // e.g. module1
 
 const quizContainer = document.getElementById("quiz-container");
 const quizTitle = document.getElementById("quiz-title");
@@ -7,30 +7,20 @@ const quizTitle = document.getElementById("quiz-title");
 let allQuestions = [];
 let wrongQuestions = [];
 
-if (!moduleNo) {
+if (!moduleKey) {
   quizContainer.innerHTML = "<p>No module selected.</p>";
   throw new Error("No module specified");
 }
 
-/* ---------- TITLE ---------- */
-const moduleNames = {
-  1: "Module 1 – Computer Fundamentals",
-  2: "Module 2 – System Maintenance & Information Security",
-  3: "Module 3 – Internet Technology & Web Design",
-  4: "Module 4 – Multimedia",
-  5: "Module 5 – DBMS"
-};
-
-quizTitle.textContent = moduleNames[moduleNo] || `Module ${moduleNo}`;
-
-/* ---------- FETCH ---------- */
-fetch(`module${moduleNo}.json`)
+// 🔹 Fetch JSON (NO SPACES, SAFE FOR GITHUB)
+fetch(`./${moduleKey}.json`)
   .then(res => {
     if (!res.ok) throw new Error("JSON not found");
     return res.json();
   })
   .then(data => {
-    console.log("Loaded JSON:", data);
+    // ✅ Use module title from JSON
+    quizTitle.textContent = data.module || moduleKey;
     allQuestions = data.questions;
     render(allQuestions);
   })
@@ -39,7 +29,6 @@ fetch(`module${moduleNo}.json`)
     console.error(err);
   });
 
-/* ---------- RENDER ---------- */
 function render(questions) {
   quizContainer.innerHTML = "";
   wrongQuestions = [];
@@ -52,7 +41,7 @@ function render(questions) {
     q.options.forEach((opt, i) => {
       optionsHTML += `
         <button class="option-btn"
-          onclick="checkAnswer(this, ${q.answer}, ${i + 1}, ${index})">
+          onclick="checkAnswer(this, ${q.answer}, ${i}, ${index})">
           ${opt}
         </button>`;
     });
@@ -68,29 +57,24 @@ function render(questions) {
   });
 }
 
-/* ---------- CHECK ANSWER ---------- */
-window.checkAnswer = function (btn, correct, selected, qIndex) {
+window.checkAnswer = function (btn, correctIndex, clickedIndex, qIndex) {
   const card = btn.closest(".question-card");
   const buttons = card.querySelectorAll(".option-btn");
   const result = card.querySelector(".result");
 
   buttons.forEach(b => b.disabled = true);
 
-  if (selected === correct) {
+  if (clickedIndex === correctIndex) {
     btn.classList.add("correct");
     result.innerHTML = "✅ Correct";
   } else {
     btn.classList.add("wrong");
+    buttons[correctIndex].classList.add("correct");
     result.innerHTML = "❌ Wrong";
     wrongQuestions.push(allQuestions[qIndex]);
-
-    buttons.forEach((b, i) => {
-      if (i + 1 === correct) b.classList.add("correct");
-    });
   }
 };
 
-/* ---------- RETRY ---------- */
 window.retryWrong = function () {
   if (wrongQuestions.length === 0) {
     alert("No wrong questions 🎉");
