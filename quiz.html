@@ -3,33 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PassHowo – Quiz</title>
-
-  <!-- Quiz CSS -->
+  <title>PassHowo Quiz</title>
   <link rel="stylesheet" href="quiz.css" />
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="quiz-header">
-    <h1 id="moduleTitle">Module Quiz</h1>
+    <h1 id="quiz-title">Module Quiz</h1>
     <p>Tap an option to see the answer</p>
   </header>
 
-  <!-- QUIZ CONTENT -->
-  <main class="quiz-container" id="quizContainer">
-    <!-- Questions injected by quiz.js -->
-  </main>
+  <main id="quiz-container"></main>
 
-  <!-- RESULT -->
-  <div class="result-bar" id="resultBar"></div>
+  <div class="retry-wrap">
+    <button id="retryBtn" onclick="retryWrong()">Retry Wrong Questions</button>
+  </div>
 
-  <!-- RETRY BUTTON -->
-  <button class="retry-btn" id="retryBtn" style="display:none;">
-    Retry Wrong Questions
-  </button>
-
-  <!-- QUIZ LOGIC -->
   <script src="quiz.js"></script>
 </body>
 </html>
