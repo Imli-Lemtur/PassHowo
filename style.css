@@ -222,3 +222,24 @@ footer {
   pointer-events: none;
   opacity: 0.9;
 }
+/* Logo header */
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+/* Mobile adjustment */
+@media (max-width: 480px) {
+  .logo {
+    width: 46px;
+    height: 46px;
+  }
+}
