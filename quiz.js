@@ -1,54 +1,81 @@
-/*************************
- * PASSHOWO – QUIZ LOGIC
- *************************/
-
-// 👉 TEMP SAMPLE QUESTIONS
-// Later you will replace this with your JSON data
-const allQuestions = [
-  {
-    question: "Which of the following is considered the brain of the computer?",
-    options: ["CPU", "RAM", "Hard Disk", "Motherboard"],
-    answer: "CPU"
-  },
-  {
-    question: "Which memory is volatile?",
-    options: ["ROM", "RAM", "Hard Disk", "Cache"],
-    answer: "RAM"
-  },
-  {
-    question: "What does CPU stand for?",
-    options: [
-      "Central Processing Unit",
-      "Computer Power Unit",
-      "Control Program Unit",
-      "Central Performance Utility"
-    ],
-    answer: "Central Processing Unit"
-  }
-];
-
-// ===== STATE =====
-let wrongQuestions = [];
-let score = 0;
-
-// ===== DOM =====
-const quizContainer = document.getElementById("quizContainer");
-const resultBar = document.getElementById("resultBar");
-const retryBtn = document.getElementById("retryBtn");
-const moduleTitle = document.getElementById("moduleTitle");
-
-// ===== MODULE NAME FROM URL =====
 const params = new URLSearchParams(window.location.search);
-const moduleName = params.get("module") || "Module Quiz";
-moduleTitle.textContent = moduleName;
+const moduleName = params.get("module");
 
-// ===== RENDER QUIZ =====
-function renderQuiz(questions) {
+const quizContainer = document.getElementById("quiz-container");
+const quizTitle = document.getElementById("quiz-title");
+
+let allQuestions = [];
+let wrongQuestions = [];
+
+if (!moduleName) {
+  quizContainer.innerHTML = "<p>No module selected.</p>";
+  throw new Error("No module specified");
+}
+
+quizTitle.textContent = moduleName.replace("module", "Module ");
+
+fetch(`${moduleName}.json`)
+  .then(res => {
+    if (!res.ok) throw new Error("JSON not found");
+    return res.json();
+  })
+  .then(data => {
+    allQuestions = data.questions;
+    render(allQuestions);
+  })
+  .catch(err => {
+    quizContainer.innerHTML = "<p>Error loading questions.</p>";
+    console.error(err);
+  });
+
+function render(questions) {
   quizContainer.innerHTML = "";
-  resultBar.textContent = "";
-  retryBtn.style.display = "none";
-  score = 0;
   wrongQuestions = [];
 
   questions.forEach((q, index) => {
-    const card =
+    const card = document.createElement("div");
+    card.className = "question-card";
+
+    let optionsHTML = "";
+    q.options.forEach(opt => {
+      optionsHTML += `
+        <button class="option-btn"
+          onclick="checkAnswer(this, '${q.answer}', ${index})">
+          ${opt}
+        </button>`;
+    });
+
+    card.innerHTML = `
+      <span class="q-no">Question ${index + 1}</span>
+      <h3>${q.question}</h3>
+      <div class="options">${optionsHTML}</div>
+    `;
+
+    quizContainer.appendChild(card);
+  });
+}
+
+window.checkAnswer = function (btn, answer, qIndex) {
+  const buttons = btn.parentElement.querySelectorAll("button");
+  buttons.forEach(b => b.disabled = true);
+
+  if (btn.textContent.trim() === answer.trim()) {
+    btn.classList.add("correct");
+  } else {
+    btn.classList.add("wrong");
+    wrongQuestions.push(allQuestions[qIndex]);
+    buttons.forEach(b => {
+      if (b.textContent.trim() === answer.trim()) {
+        b.classList.add("correct");
+      }
+    });
+  }
+};
+
+window.retryWrong = function () {
+  if (wrongQuestions.length === 0) {
+    alert("No wrong questions 🎉");
+    return;
+  }
+  render(wrongQuestions);
+};
