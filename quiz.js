@@ -91,7 +91,4 @@ window.retryWrong = function () {
   }
   render(wrongQuestions);
 };
-function updateProgress() {
-  const progressEl = document.getElementById("progress");
-  progressEl.textContent = `Progress: ${answeredCount} / ${totalQuestions}`;
-}
+
