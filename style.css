@@ -244,42 +244,4 @@ body {
 .q-option.disabled {
   pointer-events: none;
   opacity: 0.9;
-}
-/* ================= THEME TOGGLE ================= */
-
-.theme-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  border: none;
-  background: rgba(255,255,255,0.15);
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 1.1rem;
-}
-
-/* LIGHT MODE */
-body.light {
-  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
-  color: #0f172a;
-}
-
-body.light .card,
-body.light .question-card {
-  background: rgba(0,0,0,0.05);
-  color: #0f172a;
-}
-
-body.light .q-option {
-  background: rgba(0,0,0,0.08);
-}
-
-body.light .q-option:hover {
-  background: rgba(0,0,0,0.15);
-}
-
-body.light footer {
-  color: #334155;
-}
+  }
