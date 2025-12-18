@@ -11,6 +11,7 @@
   <header class="quiz-header">
     <h1 id="quiz-title">Module Quiz</h1>
     <p>Tap an option to see the answer</p>
+    <button id="themeToggle" class="theme-btn">🌙</button>
   </header>
   
 
@@ -21,5 +22,26 @@
   </div>
 
   <script src="quiz.js"></script>
+<script>
+  const toggleBtn = document.getElementById("themeToggle");
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "light") {
+    document.body.classList.add("light");
+    toggleBtn.textContent = "☀️";
+  }
+
+  toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("light");
+
+    if (document.body.classList.contains("light")) {
+      localStorage.setItem("theme", "light");
+      toggleBtn.textContent = "☀️";
+    } else {
+      localStorage.setItem("theme", "dark");
+      toggleBtn.textContent = "🌙";
+    }
+  });
+</script>
 </body>
 </html>
